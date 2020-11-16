@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="bear_dead3" ID="{69DDEBAA-6144-4A78-863B-E98008239C14}" ShortID="173947770">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bear_dead3" ID="{A967612E-20EB-4E30-AB93-DB9E56F0ECBD}">
+							<Language>SFX</Language>
+							<AudioFile>bear_dead3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="958011035"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="bear_dead3" ID="{A967612E-20EB-4E30-AB93-DB9E56F0ECBD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

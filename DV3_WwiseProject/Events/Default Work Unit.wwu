@@ -23,7 +23,17 @@
 				<Event Name="bear3_voice" ID="{191ADC98-B80F-4AA6-8431-DE0A15D43516}"/>
 				<Event Name="bear4_voice" ID="{19A6A681-1EF7-49BD-9E30-8EA4D20C155A}"/>
 				<Event Name="bear_impact" ID="{D6FDB8BD-16DA-4478-80B2-18296A7D96C0}"/>
-				<Event Name="bear_dead" ID="{91AFD99F-EA4A-41F5-8BF9-0DC627DF1445}"/>
+				<Event Name="bear_dead" ID="{91AFD99F-EA4A-41F5-8BF9-0DC627DF1445}">
+					<ChildrenList>
+						<Action Name="" ID="{8048ADE3-B304-43E5-943B-866A184B7908}" ShortID="782938738">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bear_dead3" ID="{69DDEBAA-6144-4A78-863B-E98008239C14}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="play_ambient" ID="{FB98D3CE-2841-446F-BDC3-6F8576BC0167}"/>
 				<Event Name="bear_footstep" ID="{64911DA8-A7AA-4C03-BBBE-35ECFF85FA14}"/>
 				<Event Name="button_others" ID="{36599F50-CD6A-4404-9300-2B9ACB2B1EC6}"/>
