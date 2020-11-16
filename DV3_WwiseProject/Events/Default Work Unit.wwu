@@ -36,6 +36,7 @@
 				<Event Name="button_others_06" ID="{F99D9D4C-6A62-4EFE-B3D3-3D2ADF94A5D5}"/>
 				<Event Name="button_others_07" ID="{5BA8517A-4992-4579-9E87-7F3C98BB17D7}"/>
 				<Event Name="button_exit" ID="{5323598A-3E2B-4955-811D-156715829877}"/>
+				<Event Name="game_start" ID="{A6B39703-F7D1-4310-B690-6EF399332C4C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
