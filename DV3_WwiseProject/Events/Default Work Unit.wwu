@@ -25,7 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="player_reload" ID="{001DB252-2A1F-4CA5-A1CF-E7D9532F9F43}"/>
+				<Event Name="player_reload" ID="{001DB252-2A1F-4CA5-A1CF-E7D9532F9F43}">
+					<ChildrenList>
+						<Action Name="" ID="{0E399D07-57C9-4165-9B62-E0C1025C1361}" ShortID="959098700">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_reload" ID="{3385BE93-B654-4A22-8287-E769BF5FD96D}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="player_hurt" ID="{BBF01D68-462E-40AD-9906-5401FF49E20B}"/>
 				<Event Name="player_batair" ID="{6C57BD04-85D1-4B57-9804-30BF03D34539}">
 					<ChildrenList>
@@ -49,7 +59,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="player_sandwich" ID="{6F126793-D23F-4E47-BDAA-F796515EECB4}"/>
+				<Event Name="player_sandwich" ID="{6F126793-D23F-4E47-BDAA-F796515EECB4}">
+					<ChildrenList>
+						<Action Name="" ID="{F0D97FC1-C7CD-4B91-8009-CE799169BC66}" ShortID="772523174">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_sandwich" ID="{A8CBFDAF-C50C-4229-8E35-BB719A976954}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="player_bullets" ID="{241D4D0F-EA4B-4B46-90B6-B172A7AE59A2}"/>
 				<Event Name="player_gunchange" ID="{95380444-397E-4626-92CD-63E92EF0B259}"/>
 				<Event Name="player_health" ID="{6CF53D6C-D6B7-4B28-9126-4F9F51DBF752}">

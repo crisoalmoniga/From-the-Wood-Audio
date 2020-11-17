@@ -658,9 +658,22 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="player_reload" ID="{3385BE93-B654-4A22-8287-E769BF5FD96D}" ShortID="596886229">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B5ACE749-CFF0-484E-8645-A18CBFF82D04}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="606"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
