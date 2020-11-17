@@ -451,6 +451,28 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="player_bathit" ID="{B22B15EE-4E4A-4D4F-83DF-A153021C3264}" ShortID="621900554">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="player_bathit" ID="{B1B8EBBA-3361-44B9-B5D2-1ABC278EF994}">
+							<Language>SFX</Language>
+							<AudioFile>player_bathit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="418571893"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="player_bathit" ID="{B1B8EBBA-3361-44B9-B5D2-1ABC278EF994}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
