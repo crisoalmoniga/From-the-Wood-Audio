@@ -7,12 +7,32 @@
 				<Event Name="player_shoot" ID="{D51662AD-57EE-40F6-A4A8-0D3D04AD7B6A}"/>
 				<Event Name="player_reload" ID="{001DB252-2A1F-4CA5-A1CF-E7D9532F9F43}"/>
 				<Event Name="player_hurt" ID="{BBF01D68-462E-40AD-9906-5401FF49E20B}"/>
-				<Event Name="player_batair" ID="{6C57BD04-85D1-4B57-9804-30BF03D34539}"/>
+				<Event Name="player_batair" ID="{6C57BD04-85D1-4B57-9804-30BF03D34539}">
+					<ChildrenList>
+						<Action Name="" ID="{BF3CFC74-7D72-4EE8-8CB9-99512E6E742B}" ShortID="716127290">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_batair" ID="{19E30A93-6820-4692-AACF-818239829532}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="player_bathit" ID="{7B440CD1-BE59-405A-8EA9-36E529991A65}"/>
 				<Event Name="player_sandwich" ID="{6F126793-D23F-4E47-BDAA-F796515EECB4}"/>
 				<Event Name="player_bullets" ID="{241D4D0F-EA4B-4B46-90B6-B172A7AE59A2}"/>
 				<Event Name="player_gunchange" ID="{95380444-397E-4626-92CD-63E92EF0B259}"/>
-				<Event Name="player_health" ID="{6CF53D6C-D6B7-4B28-9126-4F9F51DBF752}"/>
+				<Event Name="player_health" ID="{6CF53D6C-D6B7-4B28-9126-4F9F51DBF752}">
+					<ChildrenList>
+						<Action Name="" ID="{7BFE8DB9-DC60-4D39-88DE-84D37749D3EB}" ShortID="44981515">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player health" ID="{5B4042E3-B3FF-447A-B678-D082E255E0D7}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="player_dead" ID="{90298924-1C9F-4CC6-B4D0-220744A1DB37}"/>
 				<Event Name="shoot_tree" ID="{6A267207-B7C3-4174-8236-EE82DD5CD1E4}"/>
 				<Event Name="shoot_rock" ID="{D26E3E25-73EE-4720-A90E-171E22C8E468}"/>
@@ -34,7 +54,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_ambient" ID="{FB98D3CE-2841-446F-BDC3-6F8576BC0167}"/>
+				<Event Name="play_ambient" ID="{FB98D3CE-2841-446F-BDC3-6F8576BC0167}">
+					<ChildrenList>
+						<Action Name="" ID="{6F91FB60-B810-4DFB-87A0-67230C0D00E2}" ShortID="853231207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vox ambient" ID="{47878A03-FC15-43C4-B057-790AD7C89949}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="bear_footstep" ID="{64911DA8-A7AA-4C03-BBBE-35ECFF85FA14}"/>
 				<Event Name="button_others" ID="{36599F50-CD6A-4404-9300-2B9ACB2B1EC6}"/>
 				<Event Name="button_play" ID="{382074FE-6E43-4C90-8886-4FDC9D1B6370}"/>
