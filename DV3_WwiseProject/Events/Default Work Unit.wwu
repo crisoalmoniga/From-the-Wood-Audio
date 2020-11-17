@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{F20CCE66-998E-449D-BD02-84DF88F7DAD3}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="player_footstep" ID="{B50AA24E-F7D4-4E7B-802C-6C7A9A6890DC}"/>
+				<Event Name="player_footstep" ID="{B50AA24E-F7D4-4E7B-802C-6C7A9A6890DC}">
+					<ChildrenList>
+						<Action Name="" ID="{CD33BA2A-D776-4560-AD2B-68F7ACDFAE5C}" ShortID="623096609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_footstep" ID="{7AB9694D-D870-418A-88B5-BD39DE2B2E2C}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="player_shoot" ID="{D51662AD-57EE-40F6-A4A8-0D3D04AD7B6A}"/>
 				<Event Name="player_reload" ID="{001DB252-2A1F-4CA5-A1CF-E7D9532F9F43}"/>
 				<Event Name="player_hurt" ID="{BBF01D68-462E-40AD-9906-5401FF49E20B}"/>

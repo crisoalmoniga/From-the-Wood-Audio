@@ -473,6 +473,106 @@
 						<ActiveSource Name="player_bathit" ID="{B1B8EBBA-3361-44B9-B5D2-1ABC278EF994}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="player_footstep" ID="{7AB9694D-D870-418A-88B5-BD39DE2B2E2C}" ShortID="448166768">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Paso2" ID="{0606B601-A92F-4D46-B62D-7291A2391DD0}" ShortID="508421994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paso2" ID="{8A73593D-9BED-463F-B9CE-4C6E8D6FE587}">
+									<Language>SFX</Language>
+									<AudioFile>Paso2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052662792"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paso2" ID="{8A73593D-9BED-463F-B9CE-4C6E8D6FE587}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Paso3" ID="{8F3E1EB6-5A29-4A5C-8502-E3441B969E91}" ShortID="329099911">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paso3" ID="{0D629E67-8C36-459B-A5D7-5F119630ABFB}">
+									<Language>SFX</Language>
+									<AudioFile>Paso3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="633252433"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paso3" ID="{0D629E67-8C36-459B-A5D7-5F119630ABFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Paso4" ID="{3D2E9723-CFEA-4BA1-AEB7-EE7E8BDC4DA3}" ShortID="406466884">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paso4" ID="{68361599-7C85-48FC-837C-BA1710DA0D06}">
+									<Language>SFX</Language>
+									<AudioFile>Paso4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="613067261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paso4" ID="{68361599-7C85-48FC-837C-BA1710DA0D06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Paso5" ID="{303A63C9-F76D-4259-BAC2-D0D2620F46DD}" ShortID="1010500757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paso5" ID="{EBCB8CA2-BC6D-4AA9-BEFE-610F741C1387}">
+									<Language>SFX</Language>
+									<AudioFile>Paso5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="541672595"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paso5" ID="{EBCB8CA2-BC6D-4AA9-BEFE-610F741C1387}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -4,7 +4,9 @@
 		<UserProjectSettings Name="" ID="{60DE4044-3207-4DBE-9665-82AC350D52F9}">
 			<PropertyList>
 				<Property Name="Event Action List\{7B440CD1-BE59-405A-8EA9-36E529991A65}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{91AFD99F-EA4A-41F5-8BF9-0DC627DF1445}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D0246369-BA6F-4910-BEFB-090445FD9184}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F65EB981-448E-411C-B391-F92607D50A82}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -54,7 +56,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="KnQg26q3GkecEkTdArxTcA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="KnQg26q3GkecEkTdArxTcIf+gP9VtR9Ihr629ewMLP2/IiFElEqkSp9u+J95lhNB"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
