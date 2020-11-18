@@ -64,7 +64,7 @@
 						<Action Name="" ID="{F0D97FC1-C7CD-4B91-8009-CE799169BC66}" ShortID="772523174">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="player_sandwich" ID="{A8CBFDAF-C50C-4229-8E35-BB719A976954}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+									<ObjectRef Name="sandwich" ID="{A8CBFDAF-C50C-4229-8E35-BB719A976954}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

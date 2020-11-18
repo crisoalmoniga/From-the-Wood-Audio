@@ -747,98 +747,6 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="player_sandwich" ID="{A8CBFDAF-C50C-4229-8E35-BB719A976954}" ShortID="12862261">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{6A472717-89DA-4B0C-989A-BA5EF22E5CD1}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="531"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-8</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="mordiscos_1" ID="{A42BF37D-27F9-467C-90EC-1AB5E51B8E70}" ShortID="388046678">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="mordiscos_1" ID="{DEA16258-60F2-4600-BB45-6E04023B4797}">
-									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="21.961"/>
-										<Property Name="LoopBegin" Type="Real64" Value="2.30602740320935"/>
-										<Property Name="LoopEnd" Type="Real64" Value="2.92249017436432"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="2.28890343734393"/>
-										<Property Name="TrimEnd" Type="Real64" Value="2.95673810609515"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>mordiscos_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="282399641"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="mordiscos_1" ID="{DEA16258-60F2-4600-BB45-6E04023B4797}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="mordiscos_2" ID="{B26BC1FC-1A9F-409B-BAFF-22A847D954BB}" ShortID="402782404">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="mordiscos_1" ID="{BF7EA7F8-5FBA-469D-9C8B-2F1E06502A59}">
-									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="32.941"/>
-										<Property Name="LoopBegin" Type="Real64" Value="0.485179032853452"/>
-										<Property Name="LoopEnd" Type="Real64" Value="1.15872169022648"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.445223112500814"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.19296962195731"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>mordiscos_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="140229405"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="mordiscos_1" ID="{BF7EA7F8-5FBA-469D-9C8B-2F1E06502A59}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="player_gunchange" ID="{D4A03462-776F-499B-A1D2-6BCDC1F4BDD5}" ShortID="817168245">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
@@ -901,6 +809,141 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<BlendContainer Name="player_sandwich" ID="{C1FF3469-C358-4884-8B1E-DD187C0BC36C}" ShortID="288712131">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Flauta" ID="{56333C2A-6E63-472C-80CA-C3923AE1CE93}" ShortID="231848586">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-game-flute-bonus-2313" ID="{F085B8D8-49E3-4B1F-AED6-DBA8B0120309}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="48.971"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0356398063101209"/>
+										<Property Name="LoopEnd" Type="Real64" Value="1.48668906322219"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.71071070288581"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mixkit-game-flute-bonus-2313.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1014687912"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-game-flute-bonus-2313" ID="{F085B8D8-49E3-4B1F-AED6-DBA8B0120309}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="sandwich" ID="{A8CBFDAF-C50C-4229-8E35-BB719A976954}" ShortID="12862261">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6A472717-89DA-4B0C-989A-BA5EF22E5CD1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="531"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="mordiscos_1" ID="{A42BF37D-27F9-467C-90EC-1AB5E51B8E70}" ShortID="388046678">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mordiscos_1" ID="{DEA16258-60F2-4600-BB45-6E04023B4797}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="21.961"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.30602740320935"/>
+												<Property Name="LoopEnd" Type="Real64" Value="2.92249017436432"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.28890343734393"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.95673810609515"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>mordiscos_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="282399641"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mordiscos_1" ID="{DEA16258-60F2-4600-BB45-6E04023B4797}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mordiscos_2" ID="{B26BC1FC-1A9F-409B-BAFF-22A847D954BB}" ShortID="402782404">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mordiscos_1" ID="{BF7EA7F8-5FBA-469D-9C8B-2F1E06502A59}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="32.941"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.485179032853452"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.15872169022648"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.445223112500814"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.19296962195731"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>mordiscos_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="140229405"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mordiscos_1" ID="{BF7EA7F8-5FBA-469D-9C8B-2F1E06502A59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
