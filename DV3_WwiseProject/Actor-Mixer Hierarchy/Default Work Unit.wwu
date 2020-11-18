@@ -776,13 +776,15 @@
 									<Modifier Name="" ID="{5E512B6C-4400-43C8-8670-3C52CBC73749}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="429"/>
+											<Property Name="Max" Type="Real64" Value="253"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-14</Value>
@@ -811,11 +813,57 @@
 								<AudioFileSource Name="cambio_arma_1" ID="{6EC97BCB-B025-40D6-B393-05130552C3C9}">
 									<PropertyList>
 										<Property Name="CrossfadeDuration" Type="Real64" Value="14.447"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.385526675786594"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.380519835841313"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.368002735978112"/>
+										<Property Name="LoopEnd" Type="Real64" Value="1.27424076607387"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.347975376196991"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.3067852257182"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>cambio_arma_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603013215"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cambio_arma_1" ID="{6EC97BCB-B025-40D6-B393-05130552C3C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cambio_arma_2" ID="{6B804015-FDF5-4090-A19F-8AF3D1A24D96}" ShortID="438496883">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{69FB98D2-23F6-488E-8113-8E27F2CD2EFF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="455"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cambio_arma_1" ID="{83CA79B0-8DEF-4028-8D49-E108888419B2}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="14.447"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.368002735978112"/>
 										<Property Name="LoopEnd" Type="Real64" Value="0.823625170998632"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.347975376196991"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.843652530779754"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.963816689466484"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>cambio_arma_1.wav</AudioFile>
@@ -825,10 +873,14 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="cambio_arma_1" ID="{6EC97BCB-B025-40D6-B393-05130552C3C9}" Platform="Linked"/>
+								<ActiveSource Name="cambio_arma_1" ID="{83CA79B0-8DEF-4028-8D49-E108888419B2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="cambio_arma_1" ID="{616277A4-AAF7-410B-AF46-FE99658A81C9}"/>
+						<ItemRef Name="cambio_arma_2" ID="{6B804015-FDF5-4090-A19F-8AF3D1A24D96}"/>
+					</Playlist>
 				</RandomSequenceContainer>
 				<BlendContainer Name="player_sandwich" ID="{C1FF3469-C358-4884-8B1E-DD187C0BC36C}" ShortID="288712131">
 					<ReferenceList>
