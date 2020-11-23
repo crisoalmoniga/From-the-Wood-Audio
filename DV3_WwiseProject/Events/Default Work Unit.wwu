@@ -36,7 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="player_hurt" ID="{BBF01D68-462E-40AD-9906-5401FF49E20B}"/>
+				<Event Name="player_hurt" ID="{BBF01D68-462E-40AD-9906-5401FF49E20B}">
+					<ChildrenList>
+						<Action Name="" ID="{2DB1B1BB-FACB-489B-B850-BE3C0C62CC48}" ShortID="406951616">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player hurt" ID="{FF80FE87-B555-481F-86BE-B6F5EC0C2CFD}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="player_batair" ID="{6C57BD04-85D1-4B57-9804-30BF03D34539}">
 					<ChildrenList>
 						<Action Name="" ID="{BF3CFC74-7D72-4EE8-8CB9-99512E6E742B}" ShortID="716127290">
@@ -127,7 +137,6 @@
 				<Event Name="button_others_07" ID="{5BA8517A-4992-4579-9E87-7F3C98BB17D7}"/>
 				<Event Name="button_exit" ID="{5323598A-3E2B-4955-811D-156715829877}"/>
 				<Event Name="game_start" ID="{A6B39703-F7D1-4310-B690-6EF399332C4C}"/>
-				<Event Name="game_pause" ID="{9FFB3E37-7EDC-4DB6-B3E4-8A59BAE62860}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
