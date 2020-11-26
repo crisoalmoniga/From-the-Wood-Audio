@@ -133,28 +133,6 @@
 						<ActiveSource Name="player_batair" ID="{E295BAC0-10BA-4FC3-8021-602D9B4A60AF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="kid breath run 2" ID="{BB97307C-3561-403D-967D-15E755912168}" ShortID="909603913">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}">
-							<Language>SFX</Language>
-							<AudioFile>kid breath run 2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="281381435"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="Vox ambient" ID="{47878A03-FC15-43C4-B057-790AD7C89949}" ShortID="1043961306">
 					<PropertyList>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -2345,6 +2323,277 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
+				<RandomSequenceContainer Name="Buttons" ID="{FC5C7D48-F7FE-4634-B207-A5C5F3191E8E}" ShortID="1005416344">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D898AAE9-FCE5-4F61-AA93-06CC29F91521}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{60B4B1AB-C386-47CE-AB14-65624D5C95CE}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="152"/>
+											<Property Name="Min" Type="Real64" Value="-101"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BUTTON A HI" ID="{8DF193B4-7290-4222-A8E4-24E6B6C5BDA5}" ShortID="368622950">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BUTTON A HI" ID="{357E197D-BF37-4C1A-B229-F5C5EC9799F7}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0631950911323197"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.758341093587835"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.174695537694013"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.27012896970336"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BUTTON A HI.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="187592224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BUTTON A HI" ID="{357E197D-BF37-4C1A-B229-F5C5EC9799F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BUTTON A LO" ID="{0AC0493F-6F0C-497F-8C56-A5C8DEBBDE91}" ShortID="93444227">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BUTTON A LO" ID="{5F00002B-6565-4D57-8099-47F4FA103CB0}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0681152993348115"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.783325942350332"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.076629711751663"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.68585365853658"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BUTTON A LO.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="910117542"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BUTTON A LO" ID="{5F00002B-6565-4D57-8099-47F4FA103CB0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BUTTON C HI" ID="{E3D42784-44F6-40B8-80FE-C960A634ABB2}" ShortID="362185917">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BUTTON C HI" ID="{C86EA5AB-931A-4460-B695-DF33F72D89ED}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.784035476718404"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.147583148558758"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.65108647450111"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BUTTON C HI.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="801445729"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BUTTON C HI" ID="{C86EA5AB-931A-4460-B695-DF33F72D89ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BUTTON C LO" ID="{36D9C0D8-AD4C-4936-A5A2-D90CD560D21E}" ShortID="463137503">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BUTTON C LO" ID="{DE529FD4-0DCE-47F1-9127-8B66233D9A05}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.121958471914265"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.750513673318551"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.159484155580192"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.6042229767184"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BUTTON C LO.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="360034372"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BUTTON C LO" ID="{DE529FD4-0DCE-47F1-9127-8B66233D9A05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BUTTON D HI" ID="{F93CA5F9-32A1-4ABF-82CE-24D049E8212C}" ShortID="503989694">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BUTTON D HI" ID="{3F3F1229-FB06-41FD-BE5D-9A56898CB402}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.134595066518847"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.800092895417591"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.142072570214339"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.71234834626755"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BUTTON D HI.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="294499401"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BUTTON D HI" ID="{3F3F1229-FB06-41FD-BE5D-9A56898CB402}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BUTTON G LO" ID="{72F89FA4-2C28-4527-ADC8-349D3D46346F}" ShortID="956678641">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BUTTON G LO" ID="{1090B1D3-6732-48F3-A125-0A367B7DA901}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.110463414634146"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.207118902439024"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0897515243902439"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.94691768292683"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BUTTON G LO.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="676211636"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BUTTON G LO" ID="{1090B1D3-6732-48F3-A125-0A367B7DA901}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="kid breath run 2" ID="{BB97307C-3561-403D-967D-15E755912168}" ShortID="909603913">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}">
+							<Language>SFX</Language>
+							<AudioFile>kid breath run 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="281381435"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BUTTON G HI EXIT" ID="{EE20D6E8-1A20-48E1-AC6A-DD3CA9A729A7}" ShortID="725325702">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BUTTON G HI" ID="{C5FC2E69-6821-4FDE-AC6B-9505F08FDA92}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.117919392091648"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.789152854767184"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.154202281966001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.62365932187731"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>BUTTON G HI.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="149831543"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BUTTON G HI" ID="{C5FC2E69-6821-4FDE-AC6B-9505F08FDA92}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

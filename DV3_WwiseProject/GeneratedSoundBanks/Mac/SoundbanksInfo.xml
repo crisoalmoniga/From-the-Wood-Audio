@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3547125193">
+		<SoundBank Id="3104675574" Language="SFX" Hash="313991883">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -36,16 +36,266 @@
 				<Event Id="3582681732" Name="bear_footstep" ObjectPath="\Events\Default Work Unit\bear_footstep" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2384465804" Name="bear_impact" ObjectPath="\Events\Default Work Unit\bear_impact" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4016552735" Name="bear_shoot" ObjectPath="\Events\Default Work Unit\bear_shoot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1778101440" Name="button_exit" ObjectPath="\Events\Default Work Unit\button_exit" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2581005265" Name="button_others" ObjectPath="\Events\Default Work Unit\button_others" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091421" Name="button_others_01" ObjectPath="\Events\Default Work Unit\button_others_01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091422" Name="button_others_02" ObjectPath="\Events\Default Work Unit\button_others_02" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091423" Name="button_others_03" ObjectPath="\Events\Default Work Unit\button_others_03" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091416" Name="button_others_04" ObjectPath="\Events\Default Work Unit\button_others_04" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091417" Name="button_others_05" ObjectPath="\Events\Default Work Unit\button_others_05" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091418" Name="button_others_06" ObjectPath="\Events\Default Work Unit\button_others_06" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3159091419" Name="button_others_07" ObjectPath="\Events\Default Work Unit\button_others_07" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1394085446" Name="button_play" ObjectPath="\Events\Default Work Unit\button_play" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1778101440" Name="button_exit" ObjectPath="\Events\Default Work Unit\button_exit" DurationType="OneShot" DurationMin="1.469457" DurationMax="1.469457">
+					<IncludedMemoryFiles>
+						<File Id="149831543" Language="SFX">
+							<ShortName>BUTTON G HI.wav</ShortName>
+							<Path>SFX/BUTTON G HI_177616F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2581005265" Name="button_others" ObjectPath="\Events\Default Work Unit\button_others" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091421" Name="button_others_01" ObjectPath="\Events\Default Work Unit\button_others_01" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091422" Name="button_others_02" ObjectPath="\Events\Default Work Unit\button_others_02" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091423" Name="button_others_03" ObjectPath="\Events\Default Work Unit\button_others_03" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091416" Name="button_others_04" ObjectPath="\Events\Default Work Unit\button_others_04" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091417" Name="button_others_05" ObjectPath="\Events\Default Work Unit\button_others_05" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091418" Name="button_others_06" ObjectPath="\Events\Default Work Unit\button_others_06" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3159091419" Name="button_others_07" ObjectPath="\Events\Default Work Unit\button_others_07" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1394085446" Name="button_play" ObjectPath="\Events\Default Work Unit\button_play" DurationType="OneShot" DurationMin="1.003357" DurationMax="1.968736">
+					<IncludedMemoryFiles>
+						<File Id="187592224" Language="SFX">
+							<ShortName>BUTTON A HI.wav</ShortName>
+							<Path>SFX/BUTTON A HI_7EBD3A98.wem</Path>
+						</File>
+						<File Id="294499401" Language="SFX">
+							<ShortName>BUTTON D HI.wav</ShortName>
+							<Path>SFX/BUTTON D HI_68EA9123.wem</Path>
+						</File>
+						<File Id="360034372" Language="SFX">
+							<ShortName>BUTTON C LO.wav</ShortName>
+							<Path>SFX/BUTTON C LO_754092FD.wem</Path>
+						</File>
+						<File Id="676211636" Language="SFX">
+							<ShortName>BUTTON G LO.wav</ShortName>
+							<Path>SFX/BUTTON G LO_B273E95E.wem</Path>
+						</File>
+						<File Id="801445729" Language="SFX">
+							<ShortName>BUTTON C HI.wav</ShortName>
+							<Path>SFX/BUTTON C HI_181B8629.wem</Path>
+						</File>
+						<File Id="910117542" Language="SFX">
+							<ShortName>BUTTON A LO.wav</ShortName>
+							<Path>SFX/BUTTON A LO_B25F86F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="733168346" Name="game_start" ObjectPath="\Events\Default Work Unit\game_start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3719698954" Name="menu_backtomain" ObjectPath="\Events\Default Work Unit\menu_backtomain" DurationType="Infinite">
 					<IncludedMemoryFiles>
