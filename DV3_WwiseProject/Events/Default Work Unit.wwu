@@ -246,6 +246,17 @@
 				<Event Name="game_start" ID="{A6B39703-F7D1-4310-B690-6EF399332C4C}"/>
 				<Event Name="menu_start" ID="{1F57A6EA-DFB2-4F97-89CB-2D81923FCF3E}">
 					<ChildrenList>
+						<Action Name="" ID="{7C5B2F26-6CBD-485D-9530-475D55219F81}" ShortID="386882917">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MX gameplay" ID="{962B67B9-F80D-43B5-A207-027B1381AB0C}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{60BE05B3-F3FD-41DF-876E-85BC23BBDD80}" ShortID="807062440">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -253,13 +264,14 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{7C5B2F26-6CBD-485D-9530-475D55219F81}" ShortID="386882917">
+						<Action Name="" ID="{F433007B-F7B8-42C9-847A-5218A2878DD0}" ShortID="632065905">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MX gameplay" ID="{962B67B9-F80D-43B5-A207-027B1381AB0C}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+									<ObjectRef Name="Ambient" ID="{A34F097C-45D4-4252-BEB7-3D3F655F6E4B}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -274,6 +286,7 @@
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="8"/>
 								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
