@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="485099484">
+		<SoundBank Id="3104675574" Language="SFX" Hash="486731903">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -192,7 +192,7 @@
 						</File>
 						<File Id="104741923" Language="SFX">
 							<ShortName>Grillo3.wav</ShortName>
-							<Path>SFX/Grillo3_4BCDAD97.wem</Path>
+							<Path>SFX/Grillo3_9D57D80D.wem</Path>
 						</File>
 						<File Id="140878479" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
@@ -212,7 +212,7 @@
 						</File>
 						<File Id="325537324" Language="SFX">
 							<ShortName>Grillo3.wav</ShortName>
-							<Path>SFX/Grillo3_DEC3D270.wem</Path>
+							<Path>SFX/Grillo3_A3CF2D92.wem</Path>
 						</File>
 						<File Id="363749502" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
@@ -244,7 +244,7 @@
 						</File>
 						<File Id="901123229" Language="SFX">
 							<ShortName>Grillo3.wav</ShortName>
-							<Path>SFX/Grillo3_BE2F2BD9.wem</Path>
+							<Path>SFX/Grillo3_D0FEAA03.wem</Path>
 						</File>
 						<File Id="937009985" Language="SFX">
 							<ShortName>susurro1.wav</ShortName>
@@ -307,8 +307,16 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1068092414" Name="player_hurt" ObjectPath="\Events\Default Work Unit\player_hurt" DurationType="OneShot" DurationMin="0.639552" DurationMax="1.099459">
+				<Event Id="1068092414" Name="player_hurt" ObjectPath="\Events\Default Work Unit\player_hurt" DurationType="OneShot" DurationMin="0.000000" DurationMax="6.000000">
 					<IncludedMemoryFiles>
+						<File Id="20039159" Language="SFX">
+							<ShortName>KID CRY 1.wav</ShortName>
+							<Path>SFX/KID CRY 1_247CB2C9.wem</Path>
+						</File>
+						<File Id="100217217" Language="SFX">
+							<ShortName>KID CRY 4.wav</ShortName>
+							<Path>SFX/KID CRY 4_AC15DEDE.wem</Path>
+						</File>
 						<File Id="425620364" Language="SFX">
 							<ShortName>KID CRY 3.wav</ShortName>
 							<Path>SFX/KID CRY 3_68E5B3BA.wem</Path>
@@ -316,6 +324,10 @@
 						<File Id="456418140" Language="SFX">
 							<ShortName>KID CRY 2.wav</ShortName>
 							<Path>SFX/KID CRY 2_C461D450.wem</Path>
+						</File>
+						<File Id="468103433" Language="SFX">
+							<ShortName>KID CRY 3.wav</ShortName>
+							<Path>SFX/KID CRY 3_9B46786B.wem</Path>
 						</File>
 						<File Id="522052368" Language="SFX">
 							<ShortName>KID CRY 4.wav</ShortName>
