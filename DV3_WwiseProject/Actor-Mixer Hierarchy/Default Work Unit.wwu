@@ -23,7 +23,8 @@
 									<Modifier Name="" ID="{67397C4B-6218-406C-8322-89FF7724C0E0}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="22"/>
+											<Property Name="Max" Type="Real64" Value="55"/>
+											<Property Name="Min" Type="Real64" Value="-33"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
@@ -46,9 +47,6 @@
 							</ModifierList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-6</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{42F6CC25-F14A-48C8-8AAF-4ED19A58F449}"/>
@@ -88,7 +86,7 @@
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>610</Value>
+								<Value>830</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -100,6 +98,11 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -143,6 +146,11 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -797,12 +805,17 @@
 									<Modifier Name="" ID="{FAC73E4F-773A-40A3-944D-818BF952A080}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="429"/>
-											<Property Name="Min" Type="Real64" Value="-505"/>
+											<Property Name="Max" Type="Real64" Value="1162"/>
+											<Property Name="Min" Type="Real64" Value="-253"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -828,16 +841,27 @@
 				</Sound>
 				<RandomSequenceContainer Name="player_footstep" ID="{7AB9694D-D870-418A-88B5-BD39DE2B2E2C}" ShortID="448166768">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A99DDB52-35A7-48CB-846F-B7879A8BEA59}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="278"/>
+											<Property Name="Min" Type="Real64" Value="-303"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>7</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{8859F695-7B63-4F3D-8F12-B28D0755270A}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="15"/>
+											<Property Name="Max" Type="Real64" Value="11"/>
+											<Property Name="Min" Type="Real64" Value="-11"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
@@ -854,13 +878,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Paso2" ID="{0606B601-A92F-4D46-B62D-7291A2391DD0}" ShortID="508421994">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -891,13 +908,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Paso3" ID="{8F3E1EB6-5A29-4A5C-8502-E3441B969E91}" ShortID="329099911">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -928,13 +938,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Paso4" ID="{3D2E9723-CFEA-4BA1-AEB7-EE7E8BDC4DA3}" ShortID="406466884">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -965,13 +968,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Paso5" ID="{303A63C9-F76D-4259-BAC2-D0D2620F46DD}" ShortID="1010500757">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -1727,6 +1723,52 @@
 												<ActiveSource Name="Rana" ID="{3A51B10C-2153-484A-A58F-AFEF90DD32A1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Silencio" ID="{E2DCB0D0-EB6E-42E9-8F2C-0128A41F17CC}" ShortID="656875526">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{EE229FB9-015D-4B8E-A60D-FD5B181E660D}" ShortID="646290286" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="5"/>
+														<Property Name="LengthMax" Type="Real32" Value="3"/>
+														<Property Name="LengthMin" Type="Real32" Value="-3"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{EE229FB9-015D-4B8E-A60D-FD5B181E660D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silencio_01" ID="{523E453E-E2A6-42E1-AFE2-F93EF55355D4}" ShortID="225139443">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{1C34DBC9-2E6D-4DDA-B630-3FA709B286EA}" ShortID="504810746" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="3"/>
+														<Property Name="LengthMax" Type="Real32" Value="3"/>
+														<Property Name="LengthMin" Type="Real32" Value="-3"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{1C34DBC9-2E6D-4DDA-B630-3FA709B286EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="Silencio" ID="{7C66F474-0BF3-4282-94BB-51DD2B3558FF}" ShortID="936274741">
@@ -1760,12 +1802,25 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Grillos" ID="{EB906FA5-350B-46E4-9188-E5F93C2E4855}" ShortID="43425122">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B77BDC9F-E397-4720-A1BE-1096DC7A8F02}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="177"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1797,6 +1852,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Grillo3" ID="{F79CA318-9584-406E-AFC4-C87B09E66D72}" ShortID="1037679549">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>41</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -1807,6 +1869,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Grillo3" ID="{65F8C5AC-FCEE-47EF-A97F-B1F578C68A8F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.371284271284271"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.50995670995671"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.03780663780664"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Grillo3.wav</AudioFile>
 													<MediaIDList>
@@ -1819,6 +1887,23 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Grillo3_01" ID="{FC761658-698D-4DA7-8BA6-206D9D1674EA}" ShortID="991831131">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>39</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-250</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -1830,9 +1915,11 @@
 											<ChildrenList>
 												<AudioFileSource Name="Grillo3" ID="{F81A4455-64E3-493B-85BD-3ECD738EF366}">
 													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0894660894660895"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.174458874458875"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.635638182213525"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.41291313328985"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.39949321986994"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Grillo3.wav</AudioFile>
@@ -1846,6 +1933,18 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Grillo3_02" ID="{4C026C81-E01A-497C-956F-36194ADC2694}" ShortID="879065190">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>46</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-50</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -1857,6 +1956,8 @@
 											<ChildrenList>
 												<AudioFileSource Name="Grillo3" ID="{479295D7-E076-4D20-B370-C2B95DFE73DC}">
 													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.084992784992785"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.161038961038961"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="1.4854587953903"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.82055066318765"/>
@@ -1870,6 +1971,52 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Grillo3" ID="{479295D7-E076-4D20-B370-C2B95DFE73DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silencio" ID="{D56A9954-6B08-449B-BD6F-684F6420D773}" ShortID="263872729">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{B7275627-48F0-48C2-94DA-14799FCF4DD1}" ShortID="321316395" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="4"/>
+														<Property Name="LengthMax" Type="Real32" Value="2"/>
+														<Property Name="LengthMin" Type="Real32" Value="-2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{B7275627-48F0-48C2-94DA-14799FCF4DD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silencio_01" ID="{C02B2596-1616-433D-9D97-F3E42EB4B12D}" ShortID="898126231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{F9C30D98-8B21-43FB-992F-90E8E2F818C2}" ShortID="346742326" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="3"/>
+														<Property Name="LengthMax" Type="Real32" Value="2"/>
+														<Property Name="LengthMin" Type="Real32" Value="-2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{F9C30D98-8B21-43FB-992F-90E8E2F818C2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1886,7 +2033,7 @@
 									<ChildrenList>
 										<SourcePlugin Name="Wwise Silence" ID="{6ABA5307-A44B-4EBB-ABE0-318F5C1652DC}" ShortID="664804429" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="7"/>
+												<Property Name="Length" Type="Real32" Value="4"/>
 												<Property Name="LengthMax" Type="Real32" Value="2"/>
 												<Property Name="LengthMin" Type="Real32" Value="-2"/>
 											</PropertyList>
@@ -1922,7 +2069,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2236,7 +2383,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

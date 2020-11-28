@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{BBD6EB53-CF47-472D-900D-7DBB66CC616F}">
 			<PropertyList>
 				<Property Name="Event Action List\{001DB252-2A1F-4CA5-A1CF-E7D9532F9F43}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{03A83C04-DF34-4AA2-B86A-297C7F09D126}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{054B692D-FE00-4E04-A52A-FEDDA892620C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0AF11327-7425-4401-B162-6A8EF98373E0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{12DBA7DC-E55E-4977-8CCC-EBF5BEDE1A4B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{191ADC98-B80F-4AA6-8431-DE0A15D43516}\x64_Expand States" Type="string" Value=""/>
@@ -14,6 +16,7 @@
 				<Property Name="Event Action List\{312946E0-970B-42FD-9C3D-75307AB4A538}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36599F50-CD6A-4404-9300-2B9ACB2B1EC6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{382074FE-6E43-4C90-8886-4FDC9D1B6370}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3A000BC3-9E22-44B1-B2DB-5CD48555D6D7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{469EF090-2041-48C9-B87F-2DF3B4E5F78D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5323598A-3E2B-4955-811D-156715829877}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5BA8517A-4992-4579-9E87-7F3C98BB17D7}\x64_Expand States" Type="string" Value=""/>
@@ -26,6 +29,7 @@
 				<Property Name="Event Action List\{90298924-1C9F-4CC6-B4D0-220744A1DB37}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{91AFD99F-EA4A-41F5-8BF9-0DC627DF1445}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{95380444-397E-4626-92CD-63E92EF0B259}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9E0AF5AD-1DD1-485B-9A79-29FC285C8CDD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9FFB3E37-7EDC-4DB6-B3E4-8A59BAE62860}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A6B39703-F7D1-4310-B690-6EF399332C4C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B50AA24E-F7D4-4E7B-802C-6C7A9A6890DC}\x64_Expand States" Type="string" Value=""/>
@@ -148,7 +152,7 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{F7E033ED-1671-46A8-9EEB-B1A27009388D}1380216845"/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{F7E033ED-1671-46A8-9EEB-B1A27009388D}318349269"/>
 				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{526A7BC9-D934-41CF-B74F-528E3B42AC63}"/>
 			</PropertyList>
 		</UserProjectSettings>
