@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="486731903">
+		<SoundBank Id="3104675574" Language="SFX" Hash="3368844643">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -224,7 +224,7 @@
 						</File>
 						<File Id="508866808" Language="SFX">
 							<ShortName>susurro2.wav</ShortName>
-							<Path>SFX/susurro2_10C4C929.wem</Path>
+							<Path>SFX/susurro2_4470CCD4.wem</Path>
 						</File>
 						<File Id="512923481" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
@@ -236,7 +236,7 @@
 						</File>
 						<File Id="698850561" Language="SFX">
 							<ShortName>susurro3.wav</ShortName>
-							<Path>SFX/susurro3_10C4C929.wem</Path>
+							<Path>SFX/susurro3_C1B3601A.wem</Path>
 						</File>
 						<File Id="801641602" Language="SFX">
 							<ShortName>susurro4.wav</ShortName>
@@ -248,7 +248,7 @@
 						</File>
 						<File Id="937009985" Language="SFX">
 							<ShortName>susurro1.wav</ShortName>
-							<Path>SFX/susurro1_10C4C929.wem</Path>
+							<Path>SFX/susurro1_703A489E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -363,7 +363,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4004702906" Name="player_shoot" ObjectPath="\Events\Default Work Unit\player_shoot" DurationType="OneShot" DurationMin="0.530707" DurationMax="0.700272">
+				<Event Id="4004702906" Name="player_shoot" ObjectPath="\Events\Default Work Unit\player_shoot" DurationType="OneShot" DurationMin="0.530707" DurationMax="0.670195">
 					<IncludedMemoryFiles>
 						<File Id="108484305" Language="SFX">
 							<ShortName>disparo_3.wav</ShortName>
