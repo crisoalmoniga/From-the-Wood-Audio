@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3368844643">
+		<SoundBank Id="3104675574" Language="SFX" Hash="3338140036">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -236,7 +236,7 @@
 						</File>
 						<File Id="698850561" Language="SFX">
 							<ShortName>susurro3.wav</ShortName>
-							<Path>SFX/susurro3_C1B3601A.wem</Path>
+							<Path>SFX/susurro3_BF6040BC.wem</Path>
 						</File>
 						<File Id="801641602" Language="SFX">
 							<ShortName>susurro4.wav</ShortName>
@@ -248,7 +248,7 @@
 						</File>
 						<File Id="937009985" Language="SFX">
 							<ShortName>susurro1.wav</ShortName>
-							<Path>SFX/susurro1_703A489E.wem</Path>
+							<Path>SFX/susurro1_325BFDD2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -376,41 +376,25 @@
 				<Event Id="1978508865" Name="shoot_tree" ObjectPath="\Events\Default Work Unit\shoot_tree" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3576058218" Name="start_gameplay" ObjectPath="\Events\Default Work Unit\start_gameplay" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="165428651" Language="SFX">
-							<ShortName>BRASS LOW - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/BRASS LOW - 55 BPM 4-4_D79FB2B7.wem</Path>
+						<File Id="3053503" Language="SFX">
+							<ShortName>STEM 5 - 55 BPM 4-4.wav</ShortName>
+							<Path>SFX/STEM 5 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
-						<File Id="216819983" Language="SFX">
-							<ShortName>SCREAMS 2 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/SCREAMS 2 - 55 BPM 4-4_D79FB2B7.wem</Path>
+						<File Id="141074568" Language="SFX">
+							<ShortName>STEM 4 - 55 BPM 4-4.wav</ShortName>
+							<Path>SFX/STEM 4 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
-						<File Id="253712796" Language="SFX">
-							<ShortName>STEAM BELLS STEEL - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/STEAM BELLS STEEL - 55 BPM 4-4_D79FB2B7.wem</Path>
+						<File Id="292943070" Language="SFX">
+							<ShortName>STEM 2 - 55 BPM 4-4.wav</ShortName>
+							<Path>SFX/STEM 2 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
-						<File Id="533333160" Language="SFX">
-							<ShortName>PIANO - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/PIANO - 55 BPM 4-4_D79FB2B7.wem</Path>
+						<File Id="454378737" Language="SFX">
+							<ShortName>STEM 3 - 55 BPM 4-4.wav</ShortName>
+							<Path>SFX/STEM 3 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
-						<File Id="551482605" Language="SFX">
-							<ShortName>TAIKO2 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/TAIKO2 - 55 BPM 4-4_D79FB2B7.wem</Path>
-						</File>
-						<File Id="597452169" Language="SFX">
-							<ShortName>VIOLINS - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/VIOLINS - 55 BPM 4-4_D79FB2B7.wem</Path>
-						</File>
-						<File Id="694658400" Language="SFX">
-							<ShortName>BRASS LOW 2 - 55 BPM 4-4 - BAR 5.wav</ShortName>
-							<Path>SFX/BRASS LOW 2 - 55 BPM 4-4 - BAR 5_D79FB2B7.wem</Path>
-						</File>
-						<File Id="814452999" Language="SFX">
-							<ShortName>TIMBALS - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/TIMBALS - 55 BPM 4-4_D79FB2B7.wem</Path>
-						</File>
-						<File Id="1062825447" Language="SFX">
-							<ShortName>SCREAMS - 55 BPM 4-4 .wav</ShortName>
-							<Path>SFX/SCREAMS - 55 BPM 4-4 _D79FB2B7.wem</Path>
+						<File Id="867473249" Language="SFX">
+							<ShortName>STEM 1 - 55 BPM 4-4.wav</ShortName>
+							<Path>SFX/STEM 1 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
