@@ -33,6 +33,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3576058218	start_gameplay			\Default Work Unit\start_gameplay	
 	3582681732	bear_footstep			\Default Work Unit\bear_footstep	
 	3719698954	menu_backtomain			\Default Work Unit\menu_backtomain	
+	3891337659	volume_music			\Default Work Unit\volume_music	
 	3908297853	menu_start			\Default Work Unit\menu_start	
 	3967028551	pause_off			\Default Work Unit\pause_off	
 	4004702906	player_shoot			\Default Work Unit\player_shoot	

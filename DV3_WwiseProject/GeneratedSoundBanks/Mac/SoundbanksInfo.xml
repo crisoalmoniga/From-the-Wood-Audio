@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="1091786439">
+		<SoundBank Id="3104675574" Language="SFX" Hash="860653408">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -328,7 +328,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1068092414" Name="player_hurt" ObjectPath="\Events\Default Work Unit\player_hurt" DurationType="OneShot" DurationMin="10.148238" DurationMax="41.104256">
+				<Event Id="1068092414" Name="player_hurt" ObjectPath="\Events\Default Work Unit\player_hurt" DurationType="OneShot" DurationMin="0.000000" DurationMax="6.000000">
 					<IncludedMemoryFiles>
 						<File Id="20039159" Language="SFX">
 							<ShortName>KID CRY 1.wav</ShortName>
@@ -422,6 +422,7 @@
 						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3891337659" Name="volume_music" ObjectPath="\Events\Default Work Unit\volume_music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="3677180323" Name="HEALTH" ObjectPath="\Game Parameters\Default Work Unit\HEALTH"/>
