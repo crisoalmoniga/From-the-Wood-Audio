@@ -11,12 +11,25 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2881533981">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3516846983">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="MUSIC_VOLUME" ObjectPath="\Game Parameters\Default Work Unit\MUSIC_VOLUME"/>
+				<GameParameter Id="1564184899" Name="SFX_VOLUME" ObjectPath="\Game Parameters\Default Work Unit\SFX_VOLUME"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Pause">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Pause\None"/>
+						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Pause\On"/>
+						<State Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3338140036">
+		<SoundBank Id="3104675574" Language="SFX" Hash="1091786439">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -178,8 +191,16 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3967028551" Name="pause_off" ObjectPath="\Events\Default Work Unit\pause_off" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3537680115" Name="pause_on" ObjectPath="\Events\Default Work Unit\pause_on" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3967028551" Name="pause_off" ObjectPath="\Events\Default Work Unit\pause_off" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3537680115" Name="pause_on" ObjectPath="\Events\Default Work Unit\pause_on" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Pause\On"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1562304622" Name="play_ambient" ObjectPath="\Events\Default Work Unit\play_ambient" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="9677936" Language="SFX">
@@ -307,7 +328,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1068092414" Name="player_hurt" ObjectPath="\Events\Default Work Unit\player_hurt" DurationType="OneShot" DurationMin="0.000000" DurationMax="6.000000">
+				<Event Id="1068092414" Name="player_hurt" ObjectPath="\Events\Default Work Unit\player_hurt" DurationType="OneShot" DurationMin="10.148238" DurationMax="41.104256">
 					<IncludedMemoryFiles>
 						<File Id="20039159" Language="SFX">
 							<ShortName>KID CRY 1.wav</ShortName>
@@ -397,11 +418,22 @@
 							<Path>SFX/STEM 1 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off"/>
+					</ActionSetState>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="3677180323" Name="HEALTH" ObjectPath="\Game Parameters\Default Work Unit\HEALTH"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Pause\On">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

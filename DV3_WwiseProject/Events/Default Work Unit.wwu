@@ -222,8 +222,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="pause_on" ID="{C087ACD0-1F02-46A1-AE16-BBE577444486}"/>
-				<Event Name="pause_off" ID="{F916788C-DBD6-41FE-BBA1-7B86EAF62D7E}"/>
+				<Event Name="pause_on" ID="{C087ACD0-1F02-46A1-AE16-BBE577444486}">
+					<ChildrenList>
+						<Action Name="" ID="{181355C2-F70A-429C-9028-66D5412069F3}" ShortID="22142352">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="On" ID="{97437E88-BD9A-4788-B33F-8696AAC8169D}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pause_off" ID="{F916788C-DBD6-41FE-BBA1-7B86EAF62D7E}">
+					<ChildrenList>
+						<Action Name="" ID="{BF9F7170-93E3-4906-8E06-298988BBA01C}" ShortID="86097982">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="start_gameplay" ID="{12DBA7DC-E55E-4977-8CCC-EBF5BEDE1A4B}">
 					<ChildrenList>
 						<Action Name="" ID="{A9F850A5-A997-485B-962F-47544911DAF0}" ShortID="899657008">
@@ -243,6 +269,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MX gameplay" ID="{962B67B9-F80D-43B5-A207-027B1381AB0C}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{415B6F19-F876-40DB-B3AA-A4FDF3F5A55B}" ShortID="635810762">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
