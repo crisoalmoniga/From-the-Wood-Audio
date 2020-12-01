@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>/Users/ianrue/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung SSD (Evo 860)/PROJECTS/WWISE/FTW/FTW GAME AUDIO/From-the-Wood-Audio/DV3_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/ianrue/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung SSD (Evo 860)/PROJECTS/WWISE/FTW/FTW GAME AUDIO/From-the-Wood-Audio/DV3_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/ianrue/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung SSD (Evo 860)/PROJECTS/WWISE/FTW/FTW GAME AUDIO/From-the-Wood-Audio/DV3_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Andy\Documents\GitHub\From-the-Wood-Audio\DV3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Andy\Documents\GitHub\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Andy\Documents\GitHub\From-the-Wood-Audio\DV3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/ianrue/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung SSD (Evo 860)/PROJECTS/WWISE/FTW/FTW GAME AUDIO/From-the-Wood-Audio/DV3_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Andy\Documents\GitHub\From-the-Wood-Audio\DV3_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3676536476">
+		<SoundBank Id="3104675574" Language="SFX" Hash="596081166">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -42,12 +42,42 @@
 					<IncludedMemoryFiles>
 						<File Id="958011035" Language="SFX">
 							<ShortName>bear_dead3.wav</ShortName>
-							<Path>SFX/bear_dead3_F8700B14.wem</Path>
+							<Path>SFX\bear_dead3_F8700B14.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3582681732" Name="bear_footstep" ObjectPath="\Events\Default Work Unit\bear_footstep" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2384465804" Name="bear_impact" ObjectPath="\Events\Default Work Unit\bear_impact" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3582681732" Name="bear_footstep" ObjectPath="\Events\Default Work Unit\bear_footstep" DurationType="OneShot" DurationMin="0.236009" DurationMax="0.383713">
+					<IncludedMemoryFiles>
+						<File Id="131895359" Language="SFX">
+							<ShortName>Pasoso1.wav</ShortName>
+							<Path>SFX\Pasoso1_10C4C929.wem</Path>
+						</File>
+						<File Id="139313373" Language="SFX">
+							<ShortName>Pasoso4.wav</ShortName>
+							<Path>SFX\Pasoso4_10C4C929.wem</Path>
+						</File>
+						<File Id="170249342" Language="SFX">
+							<ShortName>Pasoso2.wav</ShortName>
+							<Path>SFX\Pasoso2_10C4C929.wem</Path>
+						</File>
+						<File Id="1064938979" Language="SFX">
+							<ShortName>Pasoso3.wav</ShortName>
+							<Path>SFX\Pasoso3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2384465804" Name="bear_impact" ObjectPath="\Events\Default Work Unit\bear_impact" DurationType="OneShot" DurationMin="0.239369" DurationMax="0.262512">
+					<IncludedMemoryFiles>
+						<File Id="124684172" Language="SFX">
+							<ShortName>Bulletoso1.wav</ShortName>
+							<Path>SFX\Bulletoso1_10C4C929.wem</Path>
+						</File>
+						<File Id="199202428" Language="SFX">
+							<ShortName>Bulletoso2.wav</ShortName>
+							<Path>SFX\Bulletoso2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4016552735" Name="bear_shoot" ObjectPath="\Events\Default Work Unit\bear_shoot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="510827497" Name="button_back" ObjectPath="\Events\Default Work Unit\button_back" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="804193798" Name="button_credits" ObjectPath="\Events\Default Work Unit\button_credits" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -55,7 +85,7 @@
 					<IncludedMemoryFiles>
 						<File Id="149831543" Language="SFX">
 							<ShortName>BUTTON G HI.wav</ShortName>
-							<Path>SFX/BUTTON G HI_D6ABBFBF.wem</Path>
+							<Path>SFX\BUTTON G HI_D6ABBFBF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -63,27 +93,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -91,27 +121,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -119,27 +149,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -147,27 +177,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -175,27 +205,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -203,27 +233,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -231,27 +261,27 @@
 					<IncludedMemoryFiles>
 						<File Id="187592224" Language="SFX">
 							<ShortName>BUTTON A HI.wav</ShortName>
-							<Path>SFX/BUTTON A HI_4DBCC53A.wem</Path>
+							<Path>SFX\BUTTON A HI_4DBCC53A.wem</Path>
 						</File>
 						<File Id="294499401" Language="SFX">
 							<ShortName>BUTTON D HI.wav</ShortName>
-							<Path>SFX/BUTTON D HI_B2CAE2F8.wem</Path>
+							<Path>SFX\BUTTON D HI_B2CAE2F8.wem</Path>
 						</File>
 						<File Id="360034372" Language="SFX">
 							<ShortName>BUTTON C LO.wav</ShortName>
-							<Path>SFX/BUTTON C LO_E681E506.wem</Path>
+							<Path>SFX\BUTTON C LO_E681E506.wem</Path>
 						</File>
 						<File Id="676211636" Language="SFX">
 							<ShortName>BUTTON G LO.wav</ShortName>
-							<Path>SFX/BUTTON G LO_38C879EC.wem</Path>
+							<Path>SFX\BUTTON G LO_38C879EC.wem</Path>
 						</File>
 						<File Id="801445729" Language="SFX">
 							<ShortName>BUTTON C HI.wav</ShortName>
-							<Path>SFX/BUTTON C HI_EB999BBF.wem</Path>
+							<Path>SFX\BUTTON C HI_EB999BBF.wem</Path>
 						</File>
 						<File Id="910117542" Language="SFX">
 							<ShortName>BUTTON A LO.wav</ShortName>
-							<Path>SFX/BUTTON A LO_8F659640.wem</Path>
+							<Path>SFX\BUTTON A LO_8F659640.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -260,7 +290,7 @@
 					<IncludedMemoryFiles>
 						<File Id="784470125" Language="SFX">
 							<ShortName>FTW MENU TEST 2.wav</ShortName>
-							<Path>SFX/FTW MENU TEST 2_D79FB2B7.wem</Path>
+							<Path>SFX\FTW MENU TEST 2_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -268,7 +298,7 @@
 					<IncludedMemoryFiles>
 						<File Id="784470125" Language="SFX">
 							<ShortName>FTW MENU TEST 2.wav</ShortName>
-							<Path>SFX/FTW MENU TEST 2_D79FB2B7.wem</Path>
+							<Path>SFX\FTW MENU TEST 2_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -286,71 +316,71 @@
 					<IncludedMemoryFiles>
 						<File Id="9677936" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
-							<Path>SFX/play_ambient_1840DA15.wem</Path>
+							<Path>SFX\play_ambient_1840DA15.wem</Path>
 						</File>
 						<File Id="18416221" Language="SFX">
 							<ShortName>Ramas2.wav</ShortName>
-							<Path>SFX/Ramas2_7643567C.wem</Path>
+							<Path>SFX\Ramas2_7643567C.wem</Path>
 						</File>
 						<File Id="104741923" Language="SFX">
 							<ShortName>Grillo3.wav</ShortName>
-							<Path>SFX/Grillo3_9D57D80D.wem</Path>
+							<Path>SFX\Grillo3_9D57D80D.wem</Path>
 						</File>
 						<File Id="140878479" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
-							<Path>SFX/play_ambient_208A1956.wem</Path>
+							<Path>SFX\play_ambient_208A1956.wem</Path>
 						</File>
 						<File Id="266300629" Language="SFX">
 							<ShortName>Ramas1.wav</ShortName>
-							<Path>SFX/Ramas1_10C4C929.wem</Path>
+							<Path>SFX\Ramas1_10C4C929.wem</Path>
 						</File>
 						<File Id="273651243" Language="SFX">
 							<ShortName>Rana.wav</ShortName>
-							<Path>SFX/Rana_10C4C929.wem</Path>
+							<Path>SFX\Rana_10C4C929.wem</Path>
 						</File>
 						<File Id="274442957" Language="SFX">
 							<ShortName>Ramas2.wav</ShortName>
-							<Path>SFX/Ramas2_10C4C929.wem</Path>
+							<Path>SFX\Ramas2_10C4C929.wem</Path>
 						</File>
 						<File Id="325537324" Language="SFX">
 							<ShortName>Grillo3.wav</ShortName>
-							<Path>SFX/Grillo3_A3CF2D92.wem</Path>
+							<Path>SFX\Grillo3_A3CF2D92.wem</Path>
 						</File>
 						<File Id="363749502" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
-							<Path>SFX/play_ambient_03187BD3.wem</Path>
+							<Path>SFX\play_ambient_03187BD3.wem</Path>
 						</File>
 						<File Id="492690470" Language="SFX">
 							<ShortName>viento2.wav</ShortName>
-							<Path>SFX/viento2_10C4C929.wem</Path>
+							<Path>SFX\viento2_10C4C929.wem</Path>
 						</File>
 						<File Id="508866808" Language="SFX">
 							<ShortName>susurro2.wav</ShortName>
-							<Path>SFX/susurro2_4470CCD4.wem</Path>
+							<Path>SFX\susurro2_4470CCD4.wem</Path>
 						</File>
 						<File Id="512923481" Language="SFX">
 							<ShortName>play_ambient.wav</ShortName>
-							<Path>SFX/play_ambient_A1BCF4A7.wem</Path>
+							<Path>SFX\play_ambient_A1BCF4A7.wem</Path>
 						</File>
 						<File Id="648194541" Language="SFX">
 							<ShortName>viento1.wav</ShortName>
-							<Path>SFX/viento1_10C4C929.wem</Path>
+							<Path>SFX\viento1_10C4C929.wem</Path>
 						</File>
 						<File Id="698850561" Language="SFX">
 							<ShortName>susurro3.wav</ShortName>
-							<Path>SFX/susurro3_BF6040BC.wem</Path>
+							<Path>SFX\susurro3_BF6040BC.wem</Path>
 						</File>
 						<File Id="801641602" Language="SFX">
 							<ShortName>susurro4.wav</ShortName>
-							<Path>SFX/susurro4_10C4C929.wem</Path>
+							<Path>SFX\susurro4_10C4C929.wem</Path>
 						</File>
 						<File Id="901123229" Language="SFX">
 							<ShortName>Grillo3.wav</ShortName>
-							<Path>SFX/Grillo3_D0FEAA03.wem</Path>
+							<Path>SFX\Grillo3_D0FEAA03.wem</Path>
 						</File>
 						<File Id="937009985" Language="SFX">
 							<ShortName>susurro1.wav</ShortName>
-							<Path>SFX/susurro1_325BFDD2.wem</Path>
+							<Path>SFX\susurro1_325BFDD2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -358,7 +388,7 @@
 					<IncludedMemoryFiles>
 						<File Id="507888404" Language="SFX">
 							<ShortName>player_batair.wav</ShortName>
-							<Path>SFX/player_batair_B45CD14D.wem</Path>
+							<Path>SFX\player_batair_B45CD14D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -366,7 +396,7 @@
 					<IncludedMemoryFiles>
 						<File Id="418571893" Language="SFX">
 							<ShortName>player_bathit.wav</ShortName>
-							<Path>SFX/player_bathit_10C4C929.wem</Path>
+							<Path>SFX\player_bathit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -376,19 +406,19 @@
 					<IncludedMemoryFiles>
 						<File Id="541672595" Language="SFX">
 							<ShortName>Paso5.wav</ShortName>
-							<Path>SFX/Paso5_A131596A.wem</Path>
+							<Path>SFX\Paso5_A131596A.wem</Path>
 						</File>
 						<File Id="613067261" Language="SFX">
 							<ShortName>Paso4.wav</ShortName>
-							<Path>SFX/Paso4_928EF9C7.wem</Path>
+							<Path>SFX\Paso4_928EF9C7.wem</Path>
 						</File>
 						<File Id="633252433" Language="SFX">
 							<ShortName>Paso3.wav</ShortName>
-							<Path>SFX/Paso3_0A682567.wem</Path>
+							<Path>SFX\Paso3_0A682567.wem</Path>
 						</File>
 						<File Id="1052662792" Language="SFX">
 							<ShortName>Paso2.wav</ShortName>
-							<Path>SFX/Paso2_7D58662D.wem</Path>
+							<Path>SFX\Paso2_7D58662D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -397,15 +427,15 @@
 					<IncludedMemoryFiles>
 						<File Id="208970938" Language="SFX">
 							<ShortName>CLOTHES.wav</ShortName>
-							<Path>SFX/CLOTHES_652096BC.wem</Path>
+							<Path>SFX\CLOTHES_652096BC.wem</Path>
 						</File>
 						<File Id="721326387" Language="SFX">
 							<ShortName>kid breath run.wav</ShortName>
-							<Path>SFX/kid breath run_DE6DA4F2.wem</Path>
+							<Path>SFX\kid breath run_DE6DA4F2.wem</Path>
 						</File>
 						<File Id="1063716976" Language="SFX">
 							<ShortName>heart.wav</ShortName>
-							<Path>SFX/heart_D79FB2B7.wem</Path>
+							<Path>SFX\heart_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -413,31 +443,31 @@
 					<IncludedMemoryFiles>
 						<File Id="20039159" Language="SFX">
 							<ShortName>KID CRY 1.wav</ShortName>
-							<Path>SFX/KID CRY 1_247CB2C9.wem</Path>
+							<Path>SFX\KID CRY 1_247CB2C9.wem</Path>
 						</File>
 						<File Id="100217217" Language="SFX">
 							<ShortName>KID CRY 4.wav</ShortName>
-							<Path>SFX/KID CRY 4_AC15DEDE.wem</Path>
+							<Path>SFX\KID CRY 4_AC15DEDE.wem</Path>
 						</File>
 						<File Id="425620364" Language="SFX">
 							<ShortName>KID CRY 3.wav</ShortName>
-							<Path>SFX/KID CRY 3_68E5B3BA.wem</Path>
+							<Path>SFX\KID CRY 3_68E5B3BA.wem</Path>
 						</File>
 						<File Id="456418140" Language="SFX">
 							<ShortName>KID CRY 2.wav</ShortName>
-							<Path>SFX/KID CRY 2_C461D450.wem</Path>
+							<Path>SFX\KID CRY 2_C461D450.wem</Path>
 						</File>
 						<File Id="468103433" Language="SFX">
 							<ShortName>KID CRY 3.wav</ShortName>
-							<Path>SFX/KID CRY 3_9B46786B.wem</Path>
+							<Path>SFX\KID CRY 3_9B46786B.wem</Path>
 						</File>
 						<File Id="522052368" Language="SFX">
 							<ShortName>KID CRY 4.wav</ShortName>
-							<Path>SFX/KID CRY 4_B0C1ABA7.wem</Path>
+							<Path>SFX\KID CRY 4_B0C1ABA7.wem</Path>
 						</File>
 						<File Id="904374131" Language="SFX">
 							<ShortName>KID CRY 1.wav</ShortName>
-							<Path>SFX/KID CRY 1_D7163382.wem</Path>
+							<Path>SFX\KID CRY 1_D7163382.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -445,11 +475,11 @@
 					<IncludedMemoryFiles>
 						<File Id="220144409" Language="SFX">
 							<ShortName>cambio_arma_1.wav</ShortName>
-							<Path>SFX/cambio_arma_1_FF8E6230.wem</Path>
+							<Path>SFX\cambio_arma_1_FF8E6230.wem</Path>
 						</File>
 						<File Id="695209723" Language="SFX">
 							<ShortName>recarga_2.wav</ShortName>
-							<Path>SFX/recarga_2_CE0FCCB5.wem</Path>
+							<Path>SFX\recarga_2_CE0FCCB5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -457,11 +487,11 @@
 					<IncludedMemoryFiles>
 						<File Id="140229405" Language="SFX">
 							<ShortName>mordiscos_1.wav</ShortName>
-							<Path>SFX/mordiscos_1_4CE06FDF.wem</Path>
+							<Path>SFX\mordiscos_1_4CE06FDF.wem</Path>
 						</File>
 						<File Id="282399641" Language="SFX">
 							<ShortName>mordiscos_1.wav</ShortName>
-							<Path>SFX/mordiscos_1_62429013.wem</Path>
+							<Path>SFX\mordiscos_1_62429013.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -469,7 +499,7 @@
 					<IncludedMemoryFiles>
 						<File Id="108484305" Language="SFX">
 							<ShortName>disparo_3.wav</ShortName>
-							<Path>SFX/disparo_3_D3950A5C.wem</Path>
+							<Path>SFX\disparo_3_D3950A5C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -480,23 +510,23 @@
 					<IncludedMemoryFiles>
 						<File Id="3053503" Language="SFX">
 							<ShortName>STEM 5 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/STEM 5 - 55 BPM 4-4_D79FB2B7.wem</Path>
+							<Path>SFX\STEM 5 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 						<File Id="141074568" Language="SFX">
 							<ShortName>STEM 4 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/STEM 4 - 55 BPM 4-4_D79FB2B7.wem</Path>
+							<Path>SFX\STEM 4 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 						<File Id="292943070" Language="SFX">
 							<ShortName>STEM 2 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/STEM 2 - 55 BPM 4-4_D79FB2B7.wem</Path>
+							<Path>SFX\STEM 2 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 						<File Id="454378737" Language="SFX">
 							<ShortName>STEM 3 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/STEM 3 - 55 BPM 4-4_D79FB2B7.wem</Path>
+							<Path>SFX\STEM 3 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 						<File Id="867473249" Language="SFX">
 							<ShortName>STEM 1 - 55 BPM 4-4.wav</ShortName>
-							<Path>SFX/STEM 1 - 55 BPM 4-4_D79FB2B7.wem</Path>
+							<Path>SFX\STEM 1 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
