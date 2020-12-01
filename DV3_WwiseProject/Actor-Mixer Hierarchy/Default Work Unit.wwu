@@ -808,7 +808,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>8</Value>
+										<Value>12</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -2807,6 +2807,13 @@
 							</BlendTrackList>
 						</BlendContainer>
 						<BlendContainer Name="player_sandwich" ID="{C1FF3469-C358-4884-8B1E-DD187C0BC36C}" ShortID="288712131">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>

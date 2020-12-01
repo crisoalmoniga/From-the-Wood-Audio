@@ -365,6 +365,9 @@
 				</Event>
 				<Event Name="volume_music" ID="{62E9092C-802C-4B58-BC45-7DA30FE00D9A}"/>
 				<Event Name="volume_sfx" ID="{7B1603E5-CF30-4BA9-8046-4B79012D9B5F}"/>
+				<Event Name="bear_defeated" ID="{5B72FC93-A0FD-4E9A-BD67-5779A60C4829}"/>
+				<Event Name="bear_spawning" ID="{F359241C-0008-45F1-A342-CC2BB20BDC73}"/>
+				<Event Name="game_over" ID="{B33F37AF-4E21-42FA-B947-365CE00212A2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
