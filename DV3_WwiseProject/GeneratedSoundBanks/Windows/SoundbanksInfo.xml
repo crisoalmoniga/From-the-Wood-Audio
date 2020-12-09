@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3364321607">
+		<SoundBank Id="3104675574" Language="SFX" Hash="2726835587">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -407,7 +407,7 @@
 					<IncludedMemoryFiles>
 						<File Id="867034980" Language="SFX">
 							<ShortName>bullets.wav</ShortName>
-							<Path>SFX\bullets_78001D33.wem</Path>
+							<Path>SFX\bullets_C8CFD9CD.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -502,6 +502,10 @@
 						<File Id="282399641" Language="SFX">
 							<ShortName>mordiscos_1.wav</ShortName>
 							<Path>SFX\mordiscos_1_62429013.wem</Path>
+						</File>
+						<File Id="1014687912" Language="SFX">
+							<ShortName>mixkit-game-flute-bonus-2313.wav</ShortName>
+							<Path>SFX\mixkit-game-flute-bonus-2313_B3DA9CBC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
