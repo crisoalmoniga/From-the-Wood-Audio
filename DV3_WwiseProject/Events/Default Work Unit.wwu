@@ -336,6 +336,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{5E1EFDB9-5A8E-48E0-9612-D9DAAAC56157}" ShortID="678791036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buttons" ID="{FC5C7D48-F7FE-4634-B207-A5C5F3191E8E}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="button_settings" ID="{03A83C04-DF34-4AA2-B86A-297C7F09D126}">
@@ -349,8 +356,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="button_back" ID="{054B692D-FE00-4E04-A52A-FEDDA892620C}"/>
-				<Event Name="button_credits" ID="{3A000BC3-9E22-44B1-B2DB-5CD48555D6D7}"/>
+				<Event Name="button_back" ID="{054B692D-FE00-4E04-A52A-FEDDA892620C}">
+					<ChildrenList>
+						<Action Name="" ID="{CB3E203B-C618-4D43-91EB-FD46D057434E}" ShortID="695206160">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buttons" ID="{FC5C7D48-F7FE-4634-B207-A5C5F3191E8E}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="button_credits" ID="{3A000BC3-9E22-44B1-B2DB-5CD48555D6D7}">
+					<ChildrenList>
+						<Action Name="" ID="{C5B23386-CD7E-4C54-BF56-E0F078B3F9BE}" ShortID="223631508">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buttons" ID="{FC5C7D48-F7FE-4634-B207-A5C5F3191E8E}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="button_restart" ID="{9E0AF5AD-1DD1-485B-9A79-29FC285C8CDD}">
 					<ChildrenList>
 						<Action Name="" ID="{219F1CC3-ECF2-4701-B5B0-0C9BA9F31874}" ShortID="559494616">
@@ -385,7 +412,17 @@
 				</Event>
 				<Event Name="volume_music" ID="{62E9092C-802C-4B58-BC45-7DA30FE00D9A}"/>
 				<Event Name="volume_sfx" ID="{7B1603E5-CF30-4BA9-8046-4B79012D9B5F}"/>
-				<Event Name="bear_defeated" ID="{5B72FC93-A0FD-4E9A-BD67-5779A60C4829}"/>
+				<Event Name="bear_defeated" ID="{5B72FC93-A0FD-4E9A-BD67-5779A60C4829}">
+					<ChildrenList>
+						<Action Name="" ID="{070FAD16-E5C2-493C-81A3-7088AA62A9E1}" ShortID="1064943665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="STINGER BEAR DEFEATED" ID="{33A13A4A-987F-46D0-919D-FBAE5B21DB98}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="bear_spawning" ID="{F359241C-0008-45F1-A342-CC2BB20BDC73}">
 					<ChildrenList>
 						<Action Name="" ID="{6AEF7E59-6990-49CA-9706-00373DA7562C}" ShortID="1044026311">
@@ -402,7 +439,7 @@
 						<Action Name="" ID="{071C96BB-35DC-44D2-95B4-9636ECE65094}" ShortID="875942152">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FTW MENU TEST 2" ID="{6C728A8C-0CF7-42D4-B923-C5729F17A312}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+									<ObjectRef Name="STINGER GAME OVER" ID="{5035B4F9-D4BE-4437-8BB1-4E25FF883C71}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

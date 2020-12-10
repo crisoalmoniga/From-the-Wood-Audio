@@ -3366,6 +3366,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="STINGER NEW NIGHTMARES" ID="{05254B28-F3ED-4CEA-A0AC-FFC56675992C}" ShortID="219595306">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -3678,6 +3685,57 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="STINGER GAME OVER" ID="{5035B4F9-D4BE-4437-8BB1-4E25FF883C71}" ShortID="344117801">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STINGER GAME OVER" ID="{15A64C07-F11C-4C4A-8ABF-9804BF140C51}">
+									<Language>SFX</Language>
+									<AudioFile>STINGER GAME OVER.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="105160318"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="STINGER GAME OVER" ID="{15A64C07-F11C-4C4A-8ABF-9804BF140C51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="STINGER BEAR DEFEATED" ID="{33A13A4A-987F-46D0-919D-FBAE5B21DB98}" ShortID="956788293">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STINGER BEAR DEFEATED" ID="{6C22F669-660C-4948-B977-E918E8F98B12}">
+									<Language>SFX</Language>
+									<AudioFile>STINGER BEAR DEFEATED.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="163155782"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="STINGER BEAR DEFEATED" ID="{6C22F669-660C-4948-B977-E918E8F98B12}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
