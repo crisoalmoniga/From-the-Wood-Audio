@@ -1,9 +1,0 @@
-# Wwise
-.backup
-.cache
-*.akd
-*.validationcache
-*.wsettings
-*.wem
-*.prof
-
