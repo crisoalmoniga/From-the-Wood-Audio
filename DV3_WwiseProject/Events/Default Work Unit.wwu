@@ -367,7 +367,19 @@
 				<Event Name="volume_sfx" ID="{7B1603E5-CF30-4BA9-8046-4B79012D9B5F}"/>
 				<Event Name="bear_defeated" ID="{5B72FC93-A0FD-4E9A-BD67-5779A60C4829}"/>
 				<Event Name="bear_spawning" ID="{F359241C-0008-45F1-A342-CC2BB20BDC73}"/>
-				<Event Name="game_over" ID="{B33F37AF-4E21-42FA-B947-365CE00212A2}"/>
+				<Event Name="game_over" ID="{B33F37AF-4E21-42FA-B947-365CE00212A2}">
+					<ChildrenList>
+						<Action Name="" ID="{071C96BB-35DC-44D2-95B4-9636ECE65094}" ShortID="875942152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FTW MENU TEST 2" ID="{6C728A8C-0CF7-42D4-B923-C5729F17A312}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mute_on" ID="{CC2AB18D-2C1B-4E78-ABC3-84186D6C5223}"/>
+				<Event Name="mute_off" ID="{D2BEEA32-944C-48F2-9181-A9798375616B}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
