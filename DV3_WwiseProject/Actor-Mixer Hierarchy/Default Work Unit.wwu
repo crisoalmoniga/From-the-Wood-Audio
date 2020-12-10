@@ -932,9 +932,10 @@
 												<Property Name="FadeInDuration" Type="Real64" Value="0.162722298221614"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.380519835841313"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.368002735978112"/>
+												<Property Name="LoopEnd" Type="Real64" Value="0.988850889192898"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.282886456908345"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.00887824897402"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.01638850889194"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>cambio_arma_1.wav</AudioFile>
@@ -990,7 +991,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{8D428C9F-1628-4B9C-A664-5CE02BB9D3A3}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="455"/>
 															<Property Name="Min" Type="Real64" Value="-354"/>
 														</PropertyList>
@@ -1016,10 +1016,10 @@
 										<AudioFileSource Name="recarga_2" ID="{DB095394-7B9A-411B-AF19-B88221279138}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="161.591"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.578673205716398"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.728008226546435"/>
 												<Property Name="LoopEnd" Type="Real64" Value="1.7733533723567"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.270669725254447"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.578673205716398"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.85735432157359"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1040,7 +1040,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{4ACA38CE-7910-46F4-9052-B7C1D30FCC89}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="328"/>
 														</PropertyList>
 													</Modifier>
@@ -1083,7 +1082,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{5E7B58B4-51BE-42FC-9E68-4EED524AB244}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Min" Type="Real64" Value="-859"/>
 														</PropertyList>
 													</Modifier>
@@ -1108,15 +1106,15 @@
 										<AudioFileSource Name="cambio_arma_1" ID="{12BA9388-ABD0-48BA-AAE3-D15B00C6AD8D}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="67.421"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.445608755129959"/>
-												<Property Name="LoopEnd" Type="Real64" Value="1.78243502051983"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.498180574555404"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.75740082079343"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.352982216142271"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.4606292749658"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>cambio_arma_1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="220144409"/>
+												<MediaID ID="56214504"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -3468,6 +3466,123 @@
 								<ActiveSource Name="STINGER NEW NIGHTMARES" ID="{88543795-1D01-49CB-A1E3-22BE1519E273}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Escopeta" ID="{5A0DD3F7-4178-4705-98D6-6861B66759C8}" ShortID="206919256">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A087AF9D-C40F-47C6-96F1-5E30C4DD3330}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="51"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Escopeta Pigments_01" ID="{C2B55418-0CE2-4CE6-ABA7-588402B8D97B}" ShortID="567695664">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B51DC3E0-9806-4710-B13D-F1C928BB75FF}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Escopeta Pigments" ID="{EEE21BB7-B4BB-454F-AEFF-FDEA285ADBBA}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5.105"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.00243614154079"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.75170998632011"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.99400072285992"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.80506155950752"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Escopeta Pigments.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032628103"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Escopeta Pigments" ID="{EEE21BB7-B4BB-454F-AEFF-FDEA285ADBBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Escopeta Pigments_02" ID="{EB285C7B-CB93-4116-9C02-ACCFF5B6A3F9}" ShortID="766272867">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B51DC3E0-9806-4710-B13D-F1C928BB75FF}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Escopeta Pigments" ID="{CA469735-A667-46DF-9831-B2053CF844AD}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="17.105"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.56598193399655"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.59748450148081"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.55785710843883"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.61012311901505"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Escopeta Pigments.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1015276808"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Escopeta Pigments" ID="{CA469735-A667-46DF-9831-B2053CF844AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Escopeta Pigments_03" ID="{FFA96D75-C8D8-4CA1-B85E-ECFE47CD1AC7}" ShortID="923062238">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B51DC3E0-9806-4710-B13D-F1C928BB75FF}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Escopeta Pigments" ID="{01746253-1823-4253-BEA1-913EFB51FE9B}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="17.105"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.43678502765768"/>
+												<Property Name="LoopEnd" Type="Real64" Value="5.33183052780546"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.42974814476931"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.34238585213802"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Escopeta Pigments.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="774813878"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Escopeta Pigments" ID="{01746253-1823-4253-BEA1-913EFB51FE9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

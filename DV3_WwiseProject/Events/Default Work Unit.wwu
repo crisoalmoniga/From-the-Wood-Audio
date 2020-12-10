@@ -410,6 +410,17 @@
 				</Event>
 				<Event Name="mute_on" ID="{CC2AB18D-2C1B-4E78-ABC3-84186D6C5223}"/>
 				<Event Name="mute_off" ID="{D2BEEA32-944C-48F2-9181-A9798375616B}"/>
+				<Event Name="shotgun_shot" ID="{7DB1A7FF-ED0F-41B5-8DE8-DFD7D930504D}">
+					<ChildrenList>
+						<Action Name="" ID="{81A910E1-56B7-4A31-855F-F185C005F542}" ShortID="624475238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Escopeta" ID="{5A0DD3F7-4178-4705-98D6-6861B66759C8}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

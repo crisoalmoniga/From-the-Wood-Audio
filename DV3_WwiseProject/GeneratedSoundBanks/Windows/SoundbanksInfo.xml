@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="264387329">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3405945415">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="2726835587">
+		<SoundBank Id="3104675574" Language="SFX" Hash="3652620801">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -80,7 +80,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4016552735" Name="bear_shoot" ObjectPath="\Events\Default Work Unit\bear_shoot"/>
-				<Event Id="1071660241" Name="bear_spawning" ObjectPath="\Events\Default Work Unit\bear_spawning"/>
+				<Event Id="1071660241" Name="bear_spawning" ObjectPath="\Events\Default Work Unit\bear_spawning">
+					<IncludedMemoryFiles>
+						<File Id="940777131" Language="SFX">
+							<ShortName>STINGER NEW NIGHTMARES.wav</ShortName>
+							<Path>SFX\STINGER NEW NIGHTMARES_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="510827497" Name="button_back" ObjectPath="\Events\Default Work Unit\button_back"/>
 				<Event Id="804193798" Name="button_credits" ObjectPath="\Events\Default Work Unit\button_credits"/>
 				<Event Id="1778101440" Name="button_exit" ObjectPath="\Events\Default Work Unit\button_exit">
@@ -287,7 +294,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1432716332" Name="game_over" ObjectPath="\Events\Default Work Unit\game_over"/>
+				<Event Id="1432716332" Name="game_over" ObjectPath="\Events\Default Work Unit\game_over">
+					<IncludedMemoryFiles>
+						<File Id="784470125" Language="SFX">
+							<ShortName>FTW MENU TEST 2.wav</ShortName>
+							<Path>SFX\FTW MENU TEST 2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="733168346" Name="game_start" ObjectPath="\Events\Default Work Unit\game_start"/>
 				<Event Id="3719698954" Name="menu_backtomain" ObjectPath="\Events\Default Work Unit\menu_backtomain">
 					<IncludedMemoryFiles>
@@ -305,6 +319,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1302509176" Name="mute_off" ObjectPath="\Events\Default Work Unit\mute_off"/>
+				<Event Id="1781283874" Name="mute_on" ObjectPath="\Events\Default Work Unit\mute_on"/>
 				<Event Id="3967028551" Name="pause_off" ObjectPath="\Events\Default Work Unit\pause_off">
 					<ActionSetState>
 						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off"/>
@@ -432,7 +448,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="646858905" Name="player_gunchange" ObjectPath="\Events\Default Work Unit\player_gunchange"/>
+				<Event Id="646858905" Name="player_gunchange" ObjectPath="\Events\Default Work Unit\player_gunchange">
+					<IncludedMemoryFiles>
+						<File Id="603013215" Language="SFX">
+							<ShortName>cambio_arma_1.wav</ShortName>
+							<Path>SFX\cambio_arma_1_62F354AF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="215992295" Name="player_health" ObjectPath="\Events\Default Work Unit\player_health">
 					<IncludedMemoryFiles>
 						<File Id="208970938" Language="SFX">
@@ -455,41 +478,41 @@
 							<ShortName>KID CRY 1.wav</ShortName>
 							<Path>SFX\KID CRY 1_247CB2C9.wem</Path>
 						</File>
-						<File Id="100217217" Language="SFX">
-							<ShortName>KID CRY 4.wav</ShortName>
-							<Path>SFX\KID CRY 4_AC15DEDE.wem</Path>
+						<File Id="327741231" Language="SFX">
+							<ShortName>FEMALE GROAN 2.wav</ShortName>
+							<Path>SFX\FEMALE GROAN 2_10C4C929.wem</Path>
 						</File>
 						<File Id="425620364" Language="SFX">
 							<ShortName>KID CRY 3.wav</ShortName>
 							<Path>SFX\KID CRY 3_68E5B3BA.wem</Path>
 						</File>
-						<File Id="456418140" Language="SFX">
-							<ShortName>KID CRY 2.wav</ShortName>
-							<Path>SFX\KID CRY 2_C461D450.wem</Path>
-						</File>
-						<File Id="468103433" Language="SFX">
-							<ShortName>KID CRY 3.wav</ShortName>
-							<Path>SFX\KID CRY 3_9B46786B.wem</Path>
-						</File>
-						<File Id="522052368" Language="SFX">
-							<ShortName>KID CRY 4.wav</ShortName>
-							<Path>SFX\KID CRY 4_B0C1ABA7.wem</Path>
+						<File Id="793169703" Language="SFX">
+							<ShortName>FEMALE GROAN 3.wav</ShortName>
+							<Path>SFX\FEMALE GROAN 3_10C4C929.wem</Path>
 						</File>
 						<File Id="904374131" Language="SFX">
 							<ShortName>KID CRY 1.wav</ShortName>
 							<Path>SFX\KID CRY 1_D7163382.wem</Path>
 						</File>
+						<File Id="995724792" Language="SFX">
+							<ShortName>FEMALE GROAN .wav</ShortName>
+							<Path>SFX\FEMALE GROAN _10C4C929.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1650679582" Name="player_reload" ObjectPath="\Events\Default Work Unit\player_reload">
 					<IncludedMemoryFiles>
+						<File Id="56214504" Language="SFX">
+							<ShortName>cambio_arma_1.wav</ShortName>
+							<Path>SFX\cambio_arma_1_6163F32D.wem</Path>
+						</File>
 						<File Id="220144409" Language="SFX">
 							<ShortName>cambio_arma_1.wav</ShortName>
 							<Path>SFX\cambio_arma_1_51DFB482.wem</Path>
 						</File>
 						<File Id="695209723" Language="SFX">
 							<ShortName>recarga_2.wav</ShortName>
-							<Path>SFX\recarga_2_8775E792.wem</Path>
+							<Path>SFX\recarga_2_3E62BE89.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -520,6 +543,22 @@
 				<Event Id="3081428398" Name="shoot_metal" ObjectPath="\Events\Default Work Unit\shoot_metal"/>
 				<Event Id="1827768426" Name="shoot_rock" ObjectPath="\Events\Default Work Unit\shoot_rock"/>
 				<Event Id="1978508865" Name="shoot_tree" ObjectPath="\Events\Default Work Unit\shoot_tree"/>
+				<Event Id="835721748" Name="shotgun_shot" ObjectPath="\Events\Default Work Unit\shotgun_shot">
+					<IncludedMemoryFiles>
+						<File Id="774813878" Language="SFX">
+							<ShortName>Escopeta Pigments.wav</ShortName>
+							<Path>SFX\Escopeta Pigments_CE954F40.wem</Path>
+						</File>
+						<File Id="1015276808" Language="SFX">
+							<ShortName>Escopeta Pigments.wav</ShortName>
+							<Path>SFX\Escopeta Pigments_696349A0.wem</Path>
+						</File>
+						<File Id="1032628103" Language="SFX">
+							<ShortName>Escopeta Pigments.wav</ShortName>
+							<Path>SFX\Escopeta Pigments_E63FA80A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3576058218" Name="start_gameplay" ObjectPath="\Events\Default Work Unit\start_gameplay">
 					<IncludedMemoryFiles>
 						<File Id="3053503" Language="SFX">
