@@ -138,7 +138,7 @@
 						<Action Name="" ID="{8048ADE3-B304-43E5-943B-866A184B7908}" ShortID="782938738">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="bear_dead3" ID="{69DDEBAA-6144-4A78-863B-E98008239C14}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+									<ObjectRef Name="bear_dead" ID="{F9250498-47EA-4B89-95B8-E7C3434609BE}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
