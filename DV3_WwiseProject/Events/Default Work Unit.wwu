@@ -118,7 +118,17 @@
 				<Event Name="shoot_rock" ID="{D26E3E25-73EE-4720-A90E-171E22C8E468}"/>
 				<Event Name="shoot_metal" ID="{D0246369-BA6F-4910-BEFB-090445FD9184}"/>
 				<Event Name="bear_shoot" ID="{B83A1B6D-5FEF-4C5C-9127-BE10B016FC80}"/>
-				<Event Name="bear1_voice" ID="{28E14AE7-E1B0-482A-9C49-ADC3F4A42484}"/>
+				<Event Name="bear1_voice" ID="{28E14AE7-E1B0-482A-9C49-ADC3F4A42484}">
+					<ChildrenList>
+						<Action Name="" ID="{7843F367-882B-4547-8A8B-6AB8BE745977}" ShortID="665570557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bear Voices" ID="{9AE9EC01-6A1C-40EE-BB43-6D6CD5D871BC}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="bear2_voice" ID="{C6AB5506-5AD4-4C18-B6DF-E6EA63DA6012}"/>
 				<Event Name="bear3_voice" ID="{191ADC98-B80F-4AA6-8431-DE0A15D43516}"/>
 				<Event Name="bear4_voice" ID="{19A6A681-1EF7-49BD-9E30-8EA4D20C155A}"/>
