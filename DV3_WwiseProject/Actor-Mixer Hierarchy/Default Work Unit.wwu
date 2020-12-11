@@ -309,12 +309,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="KID CRY 3" ID="{A12F81E1-EB1E-4581-8628-0AF885AA6E35}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.10575314861461"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.251163727959698"/>
-												<Property Name="LoopEnd" Type="Real64" Value="1.0623109468573"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.175571330432792"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.187163727959698"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0561813602015113"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.06322600239591"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.920680547850455"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>KID CRY 3.wav</AudioFile>
@@ -365,10 +364,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="KID CRY 1" ID="{7FDCB048-4E52-449F-976C-E79451230F0E}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.158690176322418"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0680100755667515"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0256524823091142"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.103486793970299"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.677581863979849"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.172949002217295"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.746318005886723"/>
 												<Property Name="VolumeOffset" Type="Real64">
 													<ValueList>
 														<Value>-1</Value>
@@ -378,7 +378,7 @@
 											<Language>SFX</Language>
 											<AudioFile>KID CRY 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="904374131"/>
+												<MediaID ID="1044329266"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -394,8 +394,8 @@
 													<Modifier Name="" ID="{55A6F7E3-9124-4DB1-811E-7734FA121367}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
+															<Property Name="Max" Type="Real64" Value="278"/>
+															<Property Name="Min" Type="Real64" Value="-76"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -418,11 +418,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="KID CRY 1" ID="{F481E9C5-B9D4-4D2B-A7F4-DE0875A8A64F}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.158690176322418"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0278697772093359"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0680100755667515"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.494456762749446"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.984478935698448"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.700665188470067"/>
 												<Property Name="VolumeOffset" Type="Real64">
 													<ValueList>
 														<Value>-1</Value>
@@ -623,6 +623,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FEMALE GROAN 3" ID="{6D15F71E-9B28-4FFB-9D39-A1F7377A6BE8}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0291382113821138"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0374634146341463"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0811707317073171"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.926178861788618"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>FEMALE GROAN 3.wav</AudioFile>
 											<MediaIDList>
@@ -652,6 +659,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FEMALE GROAN 2" ID="{15265645-40FA-4908-A16C-15D8B4AB3402}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0562749445676275"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0687804878048781"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0656541019955654"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36935698447894"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>FEMALE GROAN 2.wav</AudioFile>
 											<MediaIDList>
@@ -681,6 +695,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="FEMALE GROAN" ID="{BFD95278-2BB0-4E5F-B703-33758248717F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0253850702143385"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0800606060606061"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0702971175166297"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.691254988913526"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>FEMALE GROAN .wav</AudioFile>
 											<MediaIDList>
@@ -2957,6 +2978,11 @@
 						</BlendContainer>
 						<Sound Name="BUTTON G HI EXIT" ID="{EE20D6E8-1A20-48E1-AC6A-DD3CA9A729A7}" ShortID="725325702">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-2400</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -2975,10 +3001,10 @@
 								<AudioFileSource Name="BUTTON G HI" ID="{C5FC2E69-6821-4FDE-AC6B-9505F08FDA92}">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.117919392091648"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.789152854767184"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.716587075018473"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.154202281966001"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.62365932187731"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.870789356984474"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>BUTTON G HI.wav</AudioFile>
@@ -3383,6 +3409,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="STINGER NEW NIGHTMARES" ID="{88543795-1D01-49CB-A1E3-22BE1519E273}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.274944567627494"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.09645232815965"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.412416851441241"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.9079822616408"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>STINGER NEW NIGHTMARES.wav</AudioFile>
 									<MediaIDList>
@@ -3703,6 +3736,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="STINGER GAME OVER" ID="{15A64C07-F11C-4C4A-8ABF-9804BF140C51}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.253980875831486"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.05220648558758"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.834508592017739"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.87562513858094"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>STINGER GAME OVER.wav</AudioFile>
 									<MediaIDList>
@@ -3725,6 +3765,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="STINGER BEAR DEFEATED" ID="{6C22F669-660C-4948-B977-E918E8F98B12}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.106430155210643"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.13082039911308"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.279379157427938"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.90687361419069"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>STINGER BEAR DEFEATED.wav</AudioFile>
 									<MediaIDList>

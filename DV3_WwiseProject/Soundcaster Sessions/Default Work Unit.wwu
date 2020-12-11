@@ -21,7 +21,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="SFX_VOLUME" ID="{92F9E7F3-9C79-45C7-9AEA-7D0050071613}"/>
-							<Value>80</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="HEALTH" ID="{10A371F4-3868-499B-8A71-8EC9FB0C16FA}"/>
@@ -29,10 +29,13 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MUSIC_VOLUME" ID="{5377F044-0801-4BCD-ACD2-27401DC6C1BA}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Main_menu" ID="{8BC06C9D-C31B-4FF5-AA59-6C4CF4265BAA}"/>
+						<CurrentStateRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
