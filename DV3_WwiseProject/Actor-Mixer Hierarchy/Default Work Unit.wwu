@@ -3465,6 +3465,7 @@
 										<AudioFileSource Name="Escopeta Pigments" ID="{EEE21BB7-B4BB-454F-AEFF-FDEA285ADBBA}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="5.105"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0218383960350539"/>
 												<Property Name="LoopBegin" Type="Real64" Value="1.00243614154079"/>
 												<Property Name="LoopEnd" Type="Real64" Value="1.75170998632011"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
