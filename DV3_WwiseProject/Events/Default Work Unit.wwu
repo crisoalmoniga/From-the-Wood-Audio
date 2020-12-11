@@ -243,6 +243,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{C1E1339C-A363-4AA1-840A-E74858FF09C0}" ShortID="976705823">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mx" ID="{3B3D4669-EDAF-4E83-AA3A-39D39A23DC18}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="menu_start" ID="{1F57A6EA-DFB2-4F97-89CB-2D81923FCF3E}">
@@ -271,13 +278,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{2A1E48C5-0CF3-4744-8E9E-6B3AE5A8EFFE}" ShortID="236389757">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambient" ID="{A34F097C-45D4-4252-BEB7-3D3F655F6E4B}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="pause_off" ID="{F916788C-DBD6-41FE-BBA1-7B86EAF62D7E}">
@@ -289,16 +289,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{99B6C5CE-A556-4305-8ADA-B4D38F5E37B4}" ShortID="79793704">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambient" ID="{A34F097C-45D4-4252-BEB7-3D3F655F6E4B}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -334,6 +324,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Main_menu" ID="{8BC06C9D-C31B-4FF5-AA59-6C4CF4265BAA}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8930F926-AA01-47F8-8702-494604CB41D6}" ShortID="580299608">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -391,6 +391,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{38249AAB-2558-4938-BE7F-305980E91EDA}" ShortID="976334436">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="button_resume" ID="{53DD1460-7DB9-4D19-B9CC-554EB8E48676}">
@@ -399,6 +409,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Buttons" ID="{FC5C7D48-F7FE-4634-B207-A5C5F3191E8E}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1E7293AC-35D5-4B30-9C01-241ECC9A051F}" ShortID="333186552">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
