@@ -233,6 +233,13 @@
 				</Event>
 				<Event Name="game_start" ID="{A6B39703-F7D1-4310-B690-6EF399332C4C}">
 					<ChildrenList>
+						<Action Name="" ID="{C1E1339C-A363-4AA1-840A-E74858FF09C0}" ShortID="976705823">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mx" ID="{3B3D4669-EDAF-4E83-AA3A-39D39A23DC18}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{EDEB5273-A5B4-428A-943E-E14381DE6B62}" ShortID="1005426896">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -240,13 +247,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="None" ID="{4AEDD380-6FC6-4E91-A962-2DC1C62E0BE5}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C1E1339C-A363-4AA1-840A-E74858FF09C0}" ShortID="976705823">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mx" ID="{3B3D4669-EDAF-4E83-AA3A-39D39A23DC18}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -652,6 +652,14 @@
 								<AudioNodeRef Name="MX menu" ID="{15B1CF0B-7CA9-4458-B121-BC6C36FC0F2E}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Restart_gameplay" ID="{B1C9D504-1F1C-4BB2-9E98-912B801734DD}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MX gameplay" ID="{962B67B9-F80D-43B5-A207-027B1381AB0C}" WorkUnitID="{509CF797-F32B-44D2-B0B5-18797F1AB116}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>

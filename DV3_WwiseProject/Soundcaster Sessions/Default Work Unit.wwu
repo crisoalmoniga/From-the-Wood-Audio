@@ -33,7 +33,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Main_menu" ID="{8BC06C9D-C31B-4FF5-AA59-6C4CF4265BAA}"/>
+						<CurrentStateRef Name="None" ID="{4AEDD380-6FC6-4E91-A962-2DC1C62E0BE5}"/>
 						<CurrentStateRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

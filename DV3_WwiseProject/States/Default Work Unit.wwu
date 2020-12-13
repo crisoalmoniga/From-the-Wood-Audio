@@ -16,6 +16,7 @@
 						<State Name="Gameplay_Battle" ID="{4918ED41-80FF-421F-B876-82E26A92C069}"/>
 						<State Name="Gameplay_exploration" ID="{99038621-DB77-4F57-B792-3D9193368A19}"/>
 						<State Name="Main_menu" ID="{8BC06C9D-C31B-4FF5-AA59-6C4CF4265BAA}"/>
+						<State Name="Restart_gameplay" ID="{B1C9D504-1F1C-4BB2-9E98-912B801734DD}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
