@@ -3466,7 +3466,7 @@
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="5.105"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0218383960350539"/>
-												<Property Name="LoopBegin" Type="Real64" Value="1.00243614154079"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.00409449840108"/>
 												<Property Name="LoopEnd" Type="Real64" Value="1.75170998632011"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.99400072285992"/>
@@ -3495,8 +3495,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="Escopeta Pigments" ID="{CA469735-A667-46DF-9831-B2053CF844AD}">
 											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="17.105"/>
-												<Property Name="LoopBegin" Type="Real64" Value="2.56598193399655"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5.105"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.56654827402124"/>
 												<Property Name="LoopEnd" Type="Real64" Value="3.59748450148081"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="2.55785710843883"/>
@@ -3525,7 +3525,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Escopeta Pigments" ID="{01746253-1823-4253-BEA1-913EFB51FE9B}">
 											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="17.105"/>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="5.105"/>
 												<Property Name="LoopBegin" Type="Real64" Value="4.43678502765768"/>
 												<Property Name="LoopEnd" Type="Real64" Value="5.33183052780546"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
