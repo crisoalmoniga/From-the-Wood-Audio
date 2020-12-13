@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3307143963">
+		<SoundBank Id="3104675574" Language="SFX" Hash="623107944">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -660,17 +660,9 @@
 				</Event>
 				<Event Id="1650679582" Name="player_reload" ObjectPath="\Events\Default Work Unit\player_reload">
 					<IncludedMemoryFiles>
-						<File Id="56214504" Language="SFX">
-							<ShortName>cambio_arma_1.wav</ShortName>
-							<Path>SFX\cambio_arma_1_0BB460A5.wem</Path>
-						</File>
-						<File Id="220144409" Language="SFX">
-							<ShortName>cambio_arma_1.wav</ShortName>
-							<Path>SFX\cambio_arma_1_51DFB482.wem</Path>
-						</File>
-						<File Id="695209723" Language="SFX">
-							<ShortName>recarga_2.wav</ShortName>
-							<Path>SFX\recarga_2_BD64F68D.wem</Path>
+						<File Id="704669082" Language="SFX">
+							<ShortName>recarga_pistola.wav</ShortName>
+							<Path>SFX\recarga_pistola_B22FF438.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -750,6 +742,7 @@
 						<State Id="2082940090" Name="Gameplay_Battle" ObjectPath="\States\Default Work Unit\Music\Gameplay_Battle"/>
 						<State Id="994415891" Name="Gameplay_exploration" ObjectPath="\States\Default Work Unit\Music\Gameplay_exploration"/>
 						<State Id="2005704188" Name="Main_menu" ObjectPath="\States\Default Work Unit\Music\Main_menu"/>
+						<State Id="2597878309" Name="Restart_gameplay" ObjectPath="\States\Default Work Unit\Music\Restart_gameplay"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

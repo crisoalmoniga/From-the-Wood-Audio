@@ -55,6 +55,7 @@ State	ID	Name	State Group			Notes
 	994415891	Gameplay_exploration	Music			
 	2005704188	Main_menu	Music			
 	2082940090	Gameplay_Battle	Music			
+	2597878309	Restart_gameplay	Music			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3677180323	HEALTH			\Default Work Unit\HEALTH	
@@ -82,7 +83,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	12984163	Voxoso1	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Voxoso1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Bear Voices\Voices\Voxoso1		184920
 	18416221	Ramas2_01	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Ramas2_7643567C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Pisadas ramas\Ramas\Ramas2_01		70790
 	20039159	KID CRY 6	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\KID CRY 1_0B75C2F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player hurt\KID CRY 6		39656
-	56214504	cambio_arma_3	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\cambio_arma_1_0BB460A5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_reload\cambio_arma_3		241620
 	104741923	Grillo3_01	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Grillo3_9D57D80D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Grillos\Grillos\Grillo3_01		67436
 	105160318	STINGER GAME OVER	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\STINGER GAME OVER_D9DADAD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\STINGER GAME OVER		1159960
 	108484305	disparo_3	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\disparo_3_D3950A5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_shoot\disparo_3		105268
@@ -98,7 +98,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	187592224	BUTTON A HI	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\BUTTON A HI_4DBCC53A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Buttons\BUTTON A HI		210388
 	199202428	Bulletoso2	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Bulletoso2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Impactbear\Bulletoso2		23896
 	208970938	CLOTHES	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\CLOTHES_652096BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player health\CLOTHES		344648
-	220144409	cambio_arma_1	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\cambio_arma_1_51DFB482.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_reload\cambio_arma_1		260608
 	266300629	Ramas1	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Ramas1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Pisadas ramas\Ramas\Ramas1		109194
 	273651243	Rana	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Rana_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Ranas\Ranas\Rana		40484
 	274442957	Ramas2	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Ramas2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Pisadas ramas\Ramas\Ramas2		184458
@@ -124,8 +123,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	633252433	Paso3	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Paso3_0A682567.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_footstep\Paso3		16042
 	648194541	viento1	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\viento1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Viento\viento1		1313814
 	676211636	BUTTON G LO	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\BUTTON G LO_38C879EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Buttons\BUTTON G LO		356640
-	695209723	recarga_2	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\recarga_2_BD64F68D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_reload\recarga_2		225624
 	698850561	susurro3	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\susurro3_BF6040BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Susurro\Susurros\susurro3		84326
+	704669082	recarga_pistola	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\recarga_pistola_B22FF438.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_reload\recarga_pistola		409596
 	721326387	kid breath run	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\kid breath run_DE6DA4F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player health\CRY n BREATHE\kid breath run		645376
 	774813878	Escopeta Pigments_03	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\Escopeta Pigments_9921153B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Escopeta\Escopeta Pigments_03		161052
 	784470125	FTW MENU TEST 2	F:\Universidad - Cris\Image Campus\Game Audio\From the Woods\From the Wood Audio\DV3_WwiseProject\.cache\Windows\SFX\FTW MENU TEST 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\MX menu\FTW MENU TEST 2\FTW MENU TEST 2		9425520

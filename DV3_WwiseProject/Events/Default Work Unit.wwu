@@ -30,7 +30,7 @@
 						<Action Name="" ID="{0E399D07-57C9-4165-9B62-E0C1025C1361}" ShortID="959098700">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="player_reload" ID="{3385BE93-B654-4A22-8287-E769BF5FD96D}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+									<ObjectRef Name="player_reload" ID="{50488D1A-972F-49C6-A33F-167540CB54D1}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
