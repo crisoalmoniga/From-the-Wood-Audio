@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2950486735">
+		<SoundBank Id="1355168291" Language="SFX" Hash="821406160">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="3435341429">
+		<SoundBank Id="3104675574" Language="SFX" Hash="2517648441">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -53,19 +53,23 @@
 				<Event Id="485889504" Name="bear2_voice" ObjectPath="\Events\Default Work Unit\bear2_voice" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="407021321" Name="bear3_voice" ObjectPath="\Events\Default Work Unit\bear3_voice" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="302574538" Name="bear4_voice" ObjectPath="\Events\Default Work Unit\bear4_voice" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2003226068" Name="bear_dead" ObjectPath="\Events\Default Work Unit\bear_dead" DurationType="OneShot" DurationMin="1.533035" DurationMax="3.680047">
+				<Event Id="2003226068" Name="bear_dead" ObjectPath="\Events\Default Work Unit\bear_dead" DurationType="OneShot" DurationMin="1.358741" DurationMax="3.012076">
 					<IncludedMemoryFiles>
+						<File Id="123169684" Language="SFX">
+							<ShortName>dead bear 4.wav</ShortName>
+							<Path>SFX/dead bear 4_42B89E17.wem</Path>
+						</File>
 						<File Id="327499080" Language="SFX">
 							<ShortName>dead bear 1.wav</ShortName>
-							<Path>SFX/dead bear 1_10C4C929.wem</Path>
-						</File>
-						<File Id="958011035" Language="SFX">
-							<ShortName>bear_dead3.wav</ShortName>
-							<Path>SFX/bear_dead3_F8700B14.wem</Path>
+							<Path>SFX/dead bear 1_9A334AA3.wem</Path>
 						</File>
 						<File Id="974869084" Language="SFX">
 							<ShortName>dead bear 2.wav</ShortName>
-							<Path>SFX/dead bear 2_10C4C929.wem</Path>
+							<Path>SFX/dead bear 2_25D84847.wem</Path>
+						</File>
+						<File Id="1062061863" Language="SFX">
+							<ShortName>dead bear 3.wav</ShortName>
+							<Path>SFX/dead bear 3_609485A9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -658,19 +662,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1650679582" Name="player_reload" ObjectPath="\Events\Default Work Unit\player_reload" DurationType="OneShot" DurationMin="4.125070" DurationMax="4.125070">
+				<Event Id="1650679582" Name="player_reload" ObjectPath="\Events\Default Work Unit\player_reload" DurationType="OneShot" DurationMin="2.321614" DurationMax="2.321614">
 					<IncludedMemoryFiles>
-						<File Id="56214504" Language="SFX">
-							<ShortName>cambio_arma_1.wav</ShortName>
-							<Path>SFX/cambio_arma_1_0BB460A5.wem</Path>
-						</File>
-						<File Id="220144409" Language="SFX">
-							<ShortName>cambio_arma_1.wav</ShortName>
-							<Path>SFX/cambio_arma_1_51DFB482.wem</Path>
-						</File>
-						<File Id="695209723" Language="SFX">
-							<ShortName>recarga_2.wav</ShortName>
-							<Path>SFX/recarga_2_BD64F68D.wem</Path>
+						<File Id="704669082" Language="SFX">
+							<ShortName>recarga_pistola.wav</ShortName>
+							<Path>SFX/recarga_pistola_08461C98.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -750,6 +746,7 @@
 						<State Id="2082940090" Name="Gameplay_Battle" ObjectPath="\States\Default Work Unit\Music\Gameplay_Battle"/>
 						<State Id="994415891" Name="Gameplay_exploration" ObjectPath="\States\Default Work Unit\Music\Gameplay_exploration"/>
 						<State Id="2005704188" Name="Main_menu" ObjectPath="\States\Default Work Unit\Music\Main_menu"/>
+						<State Id="2597878309" Name="Restart_gameplay" ObjectPath="\States\Default Work Unit\Music\Restart_gameplay"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

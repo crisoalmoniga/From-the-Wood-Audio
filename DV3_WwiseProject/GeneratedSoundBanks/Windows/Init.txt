@@ -10,6 +10,7 @@ State	ID	Name	State Group			Notes
 	994415891	Gameplay_exploration	Music			
 	2005704188	Main_menu	Music			
 	2082940090	Gameplay_Battle	Music			
+	2597878309	Restart_gameplay	Music			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	910294490	On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
