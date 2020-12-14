@@ -111,6 +111,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A2ADD5C2-0FA9-4FA7-8A26-AF0A605ED412}" ShortID="907213345">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player health 2" ID="{36BC4B46-3B62-4929-88A2-691E56BBC1CF}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="player_dead" ID="{90298924-1C9F-4CC6-B4D0-220744A1DB37}"/>

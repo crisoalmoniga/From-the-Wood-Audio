@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="2761358184">
+		<SoundBank Id="3104675574" Language="SFX" Hash="2822985406">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -624,9 +624,17 @@
 							<ShortName>CLOTHES.wav</ShortName>
 							<Path>SFX/CLOTHES_652096BC.wem</Path>
 						</File>
+						<File Id="281381435" Language="SFX">
+							<ShortName>kid breath run 2.wav</ShortName>
+							<Path>SFX/kid breath run 2_B7D5F4A8.wem</Path>
+						</File>
+						<File Id="671082395" Language="SFX">
+							<ShortName>heartbeat 180 bpm.wav</ShortName>
+							<Path>SFX/heartbeat 180 bpm_C60CE5AC.wem</Path>
+						</File>
 						<File Id="721326387" Language="SFX">
 							<ShortName>kid breath run.wav</ShortName>
-							<Path>SFX/kid breath run_DE6DA4F2.wem</Path>
+							<Path>SFX/kid breath run_16FE708A.wem</Path>
 						</File>
 						<File Id="1063716976" Language="SFX">
 							<ShortName>heart.wav</ShortName>

@@ -2340,191 +2340,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="CLOTHES" ID="{664989DF-41F4-494F-888F-1F949A36FE5C}" ShortID="1002447166">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{CDE47D4C-FD6D-49D0-8BEA-5A8C0C8B6C9A}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="1137"/>
-															<Property Name="Min" Type="Real64" Value="-935"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="CLOTHES" ID="{74C844F9-0D08-4996-ADD8-7459EB1BBA5B}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.227329974811083"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.191435768261965"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.79471032745591"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>CLOTHES.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="208970938"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="CLOTHES" ID="{74C844F9-0D08-4996-ADD8-7459EB1BBA5B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<RandomSequenceContainer Name="CRY n BREATHE" ID="{4185D152-709A-4198-9B54-764BD0464914}" ShortID="693654445">
-									<PropertyList>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="KID CRY 1" ID="{A1271957-9256-48D2-9F0B-1017E5D73563}" ShortID="1005494322">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{C65490E2-110F-443E-B3B2-4F149DA7DB04}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="100"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-20</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="KID CRY 1" ID="{8E22A572-0068-4BA9-8892-6FC6383FF31B}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.158690176322418"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0680100755667515"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.677581863979849"/>
-														<Property Name="VolumeOffset" Type="Real64">
-															<ValueList>
-																<Value>-1</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>KID CRY 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="904374131"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="KID CRY 1" ID="{8E22A572-0068-4BA9-8892-6FC6383FF31B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="kid breath run" ID="{938AD8CE-3AA4-467F-B593-6C35AEE44B37}" ShortID="688742946">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>380</Value>
-													</ValueList>
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{E2F319A0-0817-473F-9D1E-B25F1BCD9875}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="328"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="kid breath run" ID="{BEFA6A46-FE4B-403B-B3F0-F658877F2742}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0592560873215787"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.17936544080605"/>
-														<Property Name="LoopEnd" Type="Real64" Value="2.86766671183216"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>kid breath run.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="721326387"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="kid breath run" ID="{BEFA6A46-FE4B-403B-B3F0-F658877F2742}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<Playlist>
-										<ItemRef Name="KID CRY 1" ID="{A1271957-9256-48D2-9F0B-1017E5D73563}"/>
-										<ItemRef Name="kid breath run" ID="{938AD8CE-3AA4-467F-B593-6C35AEE44B37}"/>
-									</Playlist>
-								</RandomSequenceContainer>
 								<Sound Name="heart" ID="{BF4C2A39-CDED-4F23-8864-A5FEB5AB64C6}" ShortID="1026345264">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2547,6 +2368,43 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="heart" ID="{5774960E-946C-4D22-BC4A-20D8D7D4F7F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="heartbeat 180 bpm" ID="{8DB1F198-BED2-456E-9D1B-9E406CE2492B}" ShortID="11955401">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heartbeat 180 bpm" ID="{0BC7F8A0-E3F4-474B-A2FA-1FBDA2E1AB44}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0159803215077605"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0532677383592017"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0763504249815226"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.736870380635624"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>heartbeat 180 bpm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="671082395"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heartbeat 180 bpm" ID="{0BC7F8A0-E3F4-474B-A2FA-1FBDA2E1AB44}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2574,16 +2432,21 @@
 															</Point>
 															<Point>
 																<XPos>0.1</XPos>
-																<YPos>-0.44671</YPos>
+																<YPos>-1.5</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>30</XPos>
-																<YPos>-0.1565</YPos>
+																<XPos>8.14419</XPos>
+																<YPos>-1.5</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>30.74066</XPos>
+																<XPos>20</XPos>
+																<YPos>-6</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>20.001</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -2605,29 +2468,20 @@
 									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
-											<ItemRef Name="CLOTHES" ID="{664989DF-41F4-494F-888F-1F949A36FE5C}"/>
+											<ItemRef Name="heartbeat 180 bpm" ID="{8DB1F198-BED2-456E-9D1B-9E406CE2492B}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.0736490979959255</RightEdgePos>
+												<RightEdgePos>15</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="heart" ID="{BF4C2A39-CDED-4F23-8864-A5FEB5AB64C6}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>1.56418580187054</LeftEdgePos>
+												<LeftEdgePos>15</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>99.9995</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="CRY n BREATHE" ID="{4185D152-709A-4198-9B54-764BD0464914}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>1.56468580187054</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>20</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -2844,28 +2698,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="BUTTON G HI" ID="{C5FC2E69-6821-4FDE-AC6B-9505F08FDA92}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="kid breath run 2" ID="{BB97307C-3561-403D-967D-15E755912168}" ShortID="909603913">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}">
-									<Language>SFX</Language>
-									<AudioFile>kid breath run 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="281381435"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="player_batair" ID="{19E30A93-6820-4692-AACF-818239829532}" ShortID="3064856">
@@ -3905,6 +3737,235 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<BlendContainer Name="Player health 2" ID="{36BC4B46-3B62-4929-88A2-691E56BBC1CF}" ShortID="603676926">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B51DC3E0-9806-4710-B13D-F1C928BB75FF}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CLOTHES" ID="{664989DF-41F4-494F-888F-1F949A36FE5C}" ShortID="1002447166">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CDE47D4C-FD6D-49D0-8BEA-5A8C0C8B6C9A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1137"/>
+															<Property Name="Min" Type="Real64" Value="-935"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLOTHES" ID="{74C844F9-0D08-4996-ADD8-7459EB1BBA5B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.227329974811083"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.191435768261965"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.79471032745591"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>CLOTHES.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="208970938"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLOTHES" ID="{74C844F9-0D08-4996-ADD8-7459EB1BBA5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kid breath run" ID="{938AD8CE-3AA4-467F-B593-6C35AEE44B37}" ShortID="688742946">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>380</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E2F319A0-0817-473F-9D1E-B25F1BCD9875}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="328"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-0.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kid breath run" ID="{BEFA6A46-FE4B-403B-B3F0-F658877F2742}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0592560873215787"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.23003949845572"/>
+												<Property Name="LoopEnd" Type="Real64" Value="2.86766671183216"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kid breath run.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="721326387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kid breath run" ID="{BEFA6A46-FE4B-403B-B3F0-F658877F2742}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kid breath run 2" ID="{BB97307C-3561-403D-967D-15E755912168}" ShortID="909603913">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B51DC3E0-9806-4710-B13D-F1C928BB75FF}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.148671101256467"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0862823355506283"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kid breath run 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281381435"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kid breath run 2" ID="{CD11AE3D-5E60-4ED5-BC5C-8CB30E4AAE67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Low life 2" ID="{D1E78336-ED16-4720-9D31-6A9715AB797F}" ShortID="804171568">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5E106CE5-9FF7-4238-95A4-3A37071C3206}" ShortID="1043814320">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="HEALTH" ID="{10A371F4-3868-499B-8A71-8EC9FB0C16FA}" WorkUnitID="{F81DF2E2-9132-4604-B06D-FA8CD5186B3D}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1668CCF1-224E-4CE2-B852-10B2524CF5A9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>20</XPos>
+																<YPos>-1</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>30</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>30.001</XPos>
+																<YPos>-9.38869</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="HEALTH" ID="{10A371F4-3868-499B-8A71-8EC9FB0C16FA}" WorkUnitID="{F81DF2E2-9132-4604-B06D-FA8CD5186B3D}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="CLOTHES" ID="{664989DF-41F4-494F-888F-1F949A36FE5C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>2</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="kid breath run 2" ID="{BB97307C-3561-403D-967D-15E755912168}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.864097223669567</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>5.12322433881634</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="kid breath run" ID="{938AD8CE-3AA4-467F-B593-6C35AEE44B37}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>20</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>30</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
