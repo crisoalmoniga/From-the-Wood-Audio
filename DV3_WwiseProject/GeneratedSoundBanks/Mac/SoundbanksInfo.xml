@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="2822985406">
+		<SoundBank Id="3104675574" Language="SFX" Hash="3493735884">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>
@@ -395,6 +395,10 @@
 							<ShortName>STINGER GAME OVER.wav</ShortName>
 							<Path>SFX/STINGER GAME OVER_D9DADAD4.wem</Path>
 						</File>
+						<File Id="291696794" Language="SFX">
+							<ShortName>player dead 2.wav</ShortName>
+							<Path>SFX/player dead 2_2D781706.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="733168346" Name="game_start" ObjectPath="\Events\Default Work Unit\game_start" DurationType="Infinite">
@@ -407,6 +411,14 @@
 							<ShortName>STEM 4 - 55 BPM 4-4.wav</ShortName>
 							<Path>SFX/STEM 4 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
+						<File Id="208970938" Language="SFX">
+							<ShortName>CLOTHES.wav</ShortName>
+							<Path>SFX/CLOTHES_652096BC.wem</Path>
+						</File>
+						<File Id="281381435" Language="SFX">
+							<ShortName>kid breath run 2.wav</ShortName>
+							<Path>SFX/kid breath run 2_288D0F63.wem</Path>
+						</File>
 						<File Id="292943070" Language="SFX">
 							<ShortName>STEM 2 - 55 BPM 4-4.wav</ShortName>
 							<Path>SFX/STEM 2 - 55 BPM 4-4_D79FB2B7.wem</Path>
@@ -415,6 +427,14 @@
 							<ShortName>STEM 3 - 55 BPM 4-4.wav</ShortName>
 							<Path>SFX/STEM 3 - 55 BPM 4-4_D79FB2B7.wem</Path>
 						</File>
+						<File Id="671082395" Language="SFX">
+							<ShortName>heartbeat 180 bpm.wav</ShortName>
+							<Path>SFX/heartbeat 180 bpm_C60CE5AC.wem</Path>
+						</File>
+						<File Id="721326387" Language="SFX">
+							<ShortName>kid breath run.wav</ShortName>
+							<Path>SFX/kid breath run_15B1CF29.wem</Path>
+						</File>
 						<File Id="784470125" Language="SFX">
 							<ShortName>FTW MENU TEST 2.wav</ShortName>
 							<Path>SFX/FTW MENU TEST 2_D79FB2B7.wem</Path>
@@ -422,6 +442,10 @@
 						<File Id="867473249" Language="SFX">
 							<ShortName>STEM 1 - 55 BPM 4-4.wav</ShortName>
 							<Path>SFX/STEM 1 - 55 BPM 4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1063716976" Language="SFX">
+							<ShortName>heart.wav</ShortName>
+							<Path>SFX/heart_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -589,7 +613,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2226114503" Name="player_dead" ObjectPath="\Events\Default Work Unit\player_dead" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2453392179" Name="player_footstep" ObjectPath="\Events\Default Work Unit\player_footstep" DurationType="OneShot" DurationMin="0.154283" DurationMax="0.420104">
 					<IncludedMemoryFiles>
 						<File Id="541672595" Language="SFX">
@@ -615,30 +638,6 @@
 						<File Id="603013215" Language="SFX">
 							<ShortName>cambio_arma_1.wav</ShortName>
 							<Path>SFX/cambio_arma_1_C56D9D26.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="215992295" Name="player_health" ObjectPath="\Events\Default Work Unit\player_health" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="208970938" Language="SFX">
-							<ShortName>CLOTHES.wav</ShortName>
-							<Path>SFX/CLOTHES_652096BC.wem</Path>
-						</File>
-						<File Id="281381435" Language="SFX">
-							<ShortName>kid breath run 2.wav</ShortName>
-							<Path>SFX/kid breath run 2_B7D5F4A8.wem</Path>
-						</File>
-						<File Id="671082395" Language="SFX">
-							<ShortName>heartbeat 180 bpm.wav</ShortName>
-							<Path>SFX/heartbeat 180 bpm_C60CE5AC.wem</Path>
-						</File>
-						<File Id="721326387" Language="SFX">
-							<ShortName>kid breath run.wav</ShortName>
-							<Path>SFX/kid breath run_16FE708A.wem</Path>
-						</File>
-						<File Id="1063716976" Language="SFX">
-							<ShortName>heart.wav</ShortName>
-							<Path>SFX/heart_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -721,13 +720,33 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3576058218" Name="start_gameplay" ObjectPath="\Events\Default Work Unit\start_gameplay" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="3576058218" Name="start_gameplay" ObjectPath="\Events\Default Work Unit\start_gameplay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="208970938" Language="SFX">
+							<ShortName>CLOTHES.wav</ShortName>
+							<Path>SFX/CLOTHES_652096BC.wem</Path>
+						</File>
+						<File Id="281381435" Language="SFX">
+							<ShortName>kid breath run 2.wav</ShortName>
+							<Path>SFX/kid breath run 2_288D0F63.wem</Path>
+						</File>
+						<File Id="671082395" Language="SFX">
+							<ShortName>heartbeat 180 bpm.wav</ShortName>
+							<Path>SFX/heartbeat 180 bpm_C60CE5AC.wem</Path>
+						</File>
+						<File Id="721326387" Language="SFX">
+							<ShortName>kid breath run.wav</ShortName>
+							<Path>SFX/kid breath run_15B1CF29.wem</Path>
+						</File>
+						<File Id="1063716976" Language="SFX">
+							<ShortName>heart.wav</ShortName>
+							<Path>SFX/heart_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2082940090" Name="Gameplay_Battle" ObjectPath="\States\Default Work Unit\Music\Gameplay_Battle"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3891337659" Name="volume_music" ObjectPath="\Events\Default Work Unit\volume_music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3673881719" Name="volume_sfx" ObjectPath="\Events\Default Work Unit\volume_sfx" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="3677180323" Name="HEALTH" ObjectPath="\Game Parameters\Default Work Unit\HEALTH"/>

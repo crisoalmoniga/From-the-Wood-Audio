@@ -3966,6 +3966,35 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Sound Name="player dead 2" ID="{64CB8413-5661-4DDB-AD49-A16B44A79EE2}" ShortID="22776222">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="player dead 2" ID="{D173F6A2-03F3-4BBF-BAE9-CC9603599DEE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0349223946784922"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.279379157427938"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0798226164079823"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.14745011086475"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>player dead 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="291696794"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="player dead 2" ID="{D173F6A2-03F3-4BBF-BAE9-CC9603599DEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

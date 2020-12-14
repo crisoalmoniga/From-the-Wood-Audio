@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	215992295	player_health			\Default Work Unit\player_health	
 	302574538	bear4_voice			\Default Work Unit\bear4_voice	
 	407021321	bear3_voice			\Default Work Unit\bear3_voice	
 	485889504	bear2_voice			\Default Work Unit\bear2_voice	
@@ -27,7 +26,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1961981585	button_resume			\Default Work Unit\button_resume	
 	1978508865	shoot_tree			\Default Work Unit\shoot_tree	
 	2003226068	bear_dead			\Default Work Unit\bear_dead	
-	2226114503	player_dead			\Default Work Unit\player_dead	
 	2384465804	bear_impact			\Default Work Unit\bear_impact	
 	2453392179	player_footstep			\Default Work Unit\player_footstep	
 	2897551616	player_bullets			\Default Work Unit\player_bullets	
@@ -38,9 +36,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3537680115	pause_on			\Default Work Unit\pause_on	
 	3576058218	start_gameplay			\Default Work Unit\start_gameplay	
 	3582681732	bear_footstep			\Default Work Unit\bear_footstep	
-	3673881719	volume_sfx			\Default Work Unit\volume_sfx	
 	3719698954	menu_backtomain			\Default Work Unit\menu_backtomain	
-	3891337659	volume_music			\Default Work Unit\volume_music	
 	3908297853	menu_start			\Default Work Unit\menu_start	
 	3967028551	pause_off			\Default Work Unit\pause_off	
 	4004702906	player_shoot			\Default Work Unit\player_shoot	
@@ -102,8 +98,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	266300629	Ramas1	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\Ramas1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Pisadas ramas\Ramas\Ramas1		109194
 	273651243	Rana	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\Rana_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Ranas\Ranas\Rana		40484
 	274442957	Ramas2	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\Ramas2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Pisadas ramas\Ramas\Ramas2		184458
-	281381435	kid breath run 2	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\kid breath run 2_B7D5F4A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player health 2\kid breath run 2		115008
+	281381435	kid breath run 2	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\kid breath run 2_288D0F63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player health 2\kid breath run 2		115008
 	282399641	mordiscos_1	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\mordiscos_1_62429013.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_sandwich\sandwich\mordiscos_1		117868
+	291696794	player dead 2	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\player dead 2_2D781706.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player dead 2		205052
 	292943070	STEM 2 - 55 BPM 4-4	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\STEM 2 - 55 BPM 4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\MX gameplay\2 VIO - BELLS\STEM 2 - 55 BPM 4-4		11729516
 	294499401	BUTTON D HI	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\BUTTON D HI_B2CAE2F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Buttons\BUTTON D HI		301560
 	325537324	Grillo3	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\Grillo3_A3CF2D92.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Grillos\Grillos\Grillo3		91598
@@ -128,7 +125,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	676211636	BUTTON G LO	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\BUTTON G LO_38C879EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Buttons\BUTTON G LO		356640
 	698850561	susurro3	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\susurro3_BF6040BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient\Susurro\Susurros\susurro3		84326
 	704669082	recarga_pistola	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\recarga_pistola_08461C98.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\player_reload\recarga_pistola		409596
-	721326387	kid breath run	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\kid breath run_16FE708A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player health 2\kid breath run		645376
+	721326387	kid breath run	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\kid breath run_15B1CF29.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player health 2\kid breath run		645376
 	774813878	Escopeta Pigments_03	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\Escopeta Pigments_9921153B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Escopeta\Escopeta Pigments_03		161052
 	784470125	FTW MENU TEST 2	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\FTW MENU TEST 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\MX menu\FTW MENU TEST 2\FTW MENU TEST 2		9425520
 	793169703	FEMALE GROAN 3	Z:\Volumes\Samsung SSD (Evo 860)\PROJECTS\WWISE\FTW\FTW GAME AUDIO\From-the-Wood-Audio\DV3_WwiseProject\.cache\Windows\SFX\FEMALE GROAN 3_D7260CF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player hurt\FEMALE GROAN 3		162308
