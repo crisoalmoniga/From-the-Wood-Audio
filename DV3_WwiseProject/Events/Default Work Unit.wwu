@@ -142,17 +142,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_ambient" ID="{FB98D3CE-2841-446F-BDC3-6F8576BC0167}">
-					<ChildrenList>
-						<Action Name="" ID="{81C69372-5B4E-401E-9F05-91AD99639822}" ShortID="905210353">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambient" ID="{A34F097C-45D4-4252-BEB7-3D3F655F6E4B}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				<Event Name="play_ambient" ID="{FB98D3CE-2841-446F-BDC3-6F8576BC0167}"/>
 				<Event Name="bear_footstep" ID="{64911DA8-A7AA-4C03-BBBE-35ECFF85FA14}">
 					<ChildrenList>
 						<Action Name="" ID="{0CC1356F-21D6-4695-B62E-BB06565B74D4}" ShortID="380280140">
@@ -319,6 +309,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player health 2" ID="{36BC4B46-3B62-4929-88A2-691E56BBC1CF}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BC2996FB-10E5-439A-834A-991683FDED13}" ShortID="841719739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{4D793321-FFE5-46FF-8270-1A7643B7A5D7}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
