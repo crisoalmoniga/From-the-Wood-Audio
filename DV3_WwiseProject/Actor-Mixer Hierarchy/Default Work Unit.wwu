@@ -2569,21 +2569,21 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0.15651</YPos>
+																<YPos>-200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>44.35682</XPos>
-																<YPos>3.88434</YPos>
+																<XPos>0.1</XPos>
+																<YPos>-0.44671</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>72.26168</XPos>
-																<YPos>1.89952</YPos>
+																<XPos>30</XPos>
+																<YPos>-0.1565</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>84.2787</XPos>
+																<XPos>30.74066</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
