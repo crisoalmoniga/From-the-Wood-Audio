@@ -3370,6 +3370,34 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="bear_dead" ID="{F9250498-47EA-4B89-95B8-E7C3434609BE}" ShortID="787387617">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4275623F-17F2-47F0-B590-D115E0E40795}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="31"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{475BDAE3-F477-4451-85E2-219907CBCFCD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-379"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -3379,85 +3407,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="bear_dead3" ID="{69DDEBAA-6144-4A78-863B-E98008239C14}" ShortID="173947770">
-									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{34671975-F7EC-466C-B613-E9D0B2CD0DBC}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="7"/>
-															<Property Name="Min" Type="Real64" Value="-46"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{67397C4B-6218-406C-8322-89FF7724C0E0}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="55"/>
-															<Property Name="Min" Type="Real64" Value="-33"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-400</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{FDBD0646-A7A6-4360-877C-C08009C12780}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="51"/>
-															<Property Name="Min" Type="Real64" Value="-1465"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{42F6CC25-F14A-48C8-8AAF-4ED19A58F449}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B51DC3E0-9806-4710-B13D-F1C928BB75FF}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="bear_dead3" ID="{A967612E-20EB-4E30-AB93-DB9E56F0ECBD}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.182619647355164"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.308564231738035"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.251889168765743"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.50503778337531"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>bear_dead3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="958011035"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="bear_dead3" ID="{A967612E-20EB-4E30-AB93-DB9E56F0ECBD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="dead bear 1" ID="{20070C32-D076-4DFE-85AF-789294BFCBF3}" ShortID="719480329">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -3489,6 +3438,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="dead bear 1" ID="{5FABFA2C-99E2-496A-A650-62D72AE6EA0A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0598669623059867"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.104767184035477"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>dead bear 1.wav</AudioFile>
 											<MediaIDList>
@@ -3530,6 +3484,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="dead bear 2" ID="{D9DFFE33-8EAF-40E8-80DB-B2F22EF0C01D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.104767184035477"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.444013303769401"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>dead bear 2.wav</AudioFile>
 											<MediaIDList>
@@ -3539,6 +3498,79 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="dead bear 2" ID="{D9DFFE33-8EAF-40E8-80DB-B2F22EF0C01D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dead bear 3" ID="{E8649B2E-1188-4F5C-B9E4-995977BF9811}" ShortID="761039998">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{90324D13-C0CD-4679-9053-315248D5569A}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{79D3F6C7-4301-42FF-9B11-651D069BDE56}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dead bear 3" ID="{71D5C845-AC48-4F3A-BB11-2F23221CCE00}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.385809312638581"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.572062084257206"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.272727272727273"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.82926829268292"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dead bear 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062061863"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dead bear 3" ID="{71D5C845-AC48-4F3A-BB11-2F23221CCE00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dead bear 4" ID="{56A02416-9DEE-47E2-8E74-E50153534CE4}" ShortID="152243348">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9BFB9817-E595-4AD9-A7BD-63D3EC520428}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dead bear 4" ID="{A5D9C1BA-846C-4FD2-8A61-34AEB422A5EE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0386844050258684"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.274659275683666"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.41971766444937"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>dead bear 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123169684"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dead bear 4" ID="{A5D9C1BA-846C-4FD2-8A61-34AEB422A5EE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
