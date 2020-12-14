@@ -25,7 +25,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="HEALTH" ID="{10A371F4-3868-499B-8A71-8EC9FB0C16FA}"/>
-							<Value>0.250683355418043</Value>
+							<Value>7.46029617250749</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MUSIC_VOLUME" ID="{5377F044-0801-4BCD-ACD2-27401DC6C1BA}"/>

@@ -2573,17 +2573,22 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>0.29807</XPos>
-																<YPos>-4.8086</YPos>
+																<XPos>44.35682</XPos>
+																<YPos>3.88434</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>0.29907</XPos>
+																<XPos>72.26168</XPos>
+																<YPos>1.89952</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>84.2787</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>1</XPos>
+																<XPos>100</XPos>
 																<YPos>-200</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -2611,18 +2616,18 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="heart" ID="{BF4C2A39-CDED-4F23-8864-A5FEB5AB64C6}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.0533051484436042</LeftEdgePos>
+												<LeftEdgePos>1.56418580187054</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.269751749766029</RightEdgePos>
+												<RightEdgePos>99.9995</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="CRY n BREATHE" ID="{4185D152-709A-4198-9B54-764BD0464914}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.179270517589694</LeftEdgePos>
+												<LeftEdgePos>1.56468580187054</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.299846998853468</RightEdgePos>
+												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
