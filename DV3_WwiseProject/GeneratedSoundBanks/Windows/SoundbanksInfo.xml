@@ -29,7 +29,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3104675574" Language="SFX" Hash="566188144">
+		<SoundBank Id="3104675574" Language="SFX" Hash="1494316569">
 			<ObjectPath>\SoundBanks\Default Work Unit\MySoundBank</ObjectPath>
 			<ShortName>MySoundBank</ShortName>
 			<Path>MySoundBank.bnk</Path>

@@ -1814,13 +1814,6 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="STINGER NEW NIGHTMARES" ID="{05254B28-F3ED-4CEA-A0AC-FFC56675992C}" ShortID="219595306">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
@@ -2220,13 +2213,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="STINGER BEAR DEFEATED" ID="{33A13A4A-987F-46D0-919D-FBAE5B21DB98}" ShortID="956788293">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-2</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F88572D6-8E52-4DE4-89EA-130D2A419A87}"/>
