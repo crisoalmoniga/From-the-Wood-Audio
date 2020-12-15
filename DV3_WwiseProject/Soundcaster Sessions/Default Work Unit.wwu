@@ -18,12 +18,20 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="pause_off" ID="{F916788C-DBD6-41FE-BBA1-7B86EAF62D7E}" WorkUnitID="{F20CCE66-998E-449D-BD02-84DF88F7DAD3}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="game_over" ID="{B33F37AF-4E21-42FA-B947-365CE00212A2}" WorkUnitID="{F20CCE66-998E-449D-BD02-84DF88F7DAD3}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="menu_backtomain" ID="{469EF090-2041-48C9-B87F-2DF3B4E5F78D}" WorkUnitID="{F20CCE66-998E-449D-BD02-84DF88F7DAD3}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="pause_on" ID="{C087ACD0-1F02-46A1-AE16-BBE577444486}" WorkUnitID="{F20CCE66-998E-449D-BD02-84DF88F7DAD3}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -42,7 +50,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Gameplay_Battle" ID="{4918ED41-80FF-421F-B876-82E26A92C069}"/>
-						<CurrentStateRef Name="Off" ID="{EA893A11-B92B-4C5C-8141-F982117C5711}"/>
+						<CurrentStateRef Name="On" ID="{97437E88-BD9A-4788-B33F-8696AAC8169D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

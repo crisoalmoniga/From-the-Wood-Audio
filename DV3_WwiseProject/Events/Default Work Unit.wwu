@@ -330,16 +330,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{78879385-762A-47F5-A72A-6C30CFB9CF66}" ShortID="494952773">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Main_menu" ID="{8BC06C9D-C31B-4FF5-AA59-6C4CF4265BAA}" WorkUnitID="{512D792F-EF01-4AAC-B41C-252198EC1EE4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{8930F926-AA01-47F8-8702-494604CB41D6}" ShortID="580299608">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
