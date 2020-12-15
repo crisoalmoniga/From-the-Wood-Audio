@@ -480,6 +480,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="shotgun_reload" ID="{E0C7DD2C-A833-443B-A825-76B4E7597044}">
+					<ChildrenList>
+						<Action Name="" ID="{8F2B4B55-EBB7-4132-A7E2-ADA60649216A}" ShortID="145262285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shotgun_reload" ID="{5EF8A3C3-4DE8-40FF-8FA0-034774F8B35F}" WorkUnitID="{DB20742A-B7AA-471A-9C12-44DD02BC5370}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
